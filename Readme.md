@@ -1,0 +1,13 @@
+# REPOSITORIO PARA ATIVIDADES DA UNIVERSIDADE UNA
+
+<img src="./preview.png" width="100%">
+
+## PARTICIPANTES
+
+- Beatriz Alves De Souza - 32217235
+- Bianca Mayra De Assis Aguiar - 322124358
+- Gabriel Anjos - 322123390
+- João Vitor Da Silva Jeus - 32227515
+- Lucelho Crisitano Vieira Da Silva - 32218540
+- Pedro Henrique Pinheiro Frois - 322117445
+- Rafael Prazeres Moura - 322117187
