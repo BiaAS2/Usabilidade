@@ -85,7 +85,16 @@ button:hover {
   color: white;
 }
 
-.resultado {
-  border: 1px rgba(0, 0, 0, 0.8);
-  padding: 0.5rem;
+#resultado {
+  background-color: rgba(255, 255, 255, 0.801);
+  height: 3rem;
+  width: 8rem;
+  border-radius: 0.3rem;
+  padding: 0.7rem;
+  position: absolute;
+  bottom: 200px;
+  left: 46%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
