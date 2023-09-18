@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
     <title>Arte e Design</title>
     <link rel="stylesheet" href="style.css">
+  
 </head>
 
 <body>
-<div class="pag1">
+<a href="#topo">
+<img src="img/seta.png" alt="Volta" class="volta">
+</a>
+
+<div class="pag1" id="topo">
 <h2>GRADUAÇÃO</h2>
 <h1>ARTE E DESIGN</h1>
 <hr>
@@ -20,17 +25,21 @@
 <div class="pag2">
 <div class="titulo" id="sabemais">
 <hr>
-<h2>ASSUNTO</h2>
+<h2>PRINIPAIS MATÉRIAS</h2>
 <hr>
 </div>
 <div class="container" >
-<img src="img/bola1.png" alt="ball"> 
-<img src="img/bola2.png" alt="ball">
-<img src="img/bola3.png" alt="ball">
+<img src="img/bola1.png" alt="ball" id="bola1" onclick="texto1()"> 
+<img src="img/bola2.png" alt="ball" id="bola2" onclick="texto2()">
+<img src="img/bola3.png" alt="ball" id="bola3" onclick="texto3()">
 </div>
 
-<div class="texto">
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+<div class="texto" id="base">
+<p>A faculdade de Arte e Design é uma instituição de ensino superior dedicada à formação de estudantes nas áreas da arte e do design. Ela oferece programas acadêmicos que abrangem uma ampla gama de disciplinas criativas, incluindo pintura, escultura, design gráfico, design de interiores, design de moda, animação, cinema, fotografia e muito mais.
+    Os estudantes que frequentam uma faculdade de Arte e Design têm a oportunidade de explorar sua criatividade, aprimorar suas habilidades técnicas e desenvolver uma compreensão crítica das artes visuais e do design. Eles trabalham em projetos práticos, colaboram com outros artistas e designers e estudam a história e a teoria da arte e do design.
+    Além disso, as faculdades de Arte e Design muitas vezes oferecem acesso a instalações e recursos especializados, como estúdios de arte, laboratórios de computação gráfica, salas de exposição e galerias. Os estudantes têm a oportunidade de exibir seu trabalho e obter feedback de professores e colegas.
+    Uma graduação em Arte e Design pode levar a diversas carreiras criativas, incluindo artista visual, designer gráfico, diretor de arte, ilustrador, fotógrafo, cenógrafo, curador de museu, professor de arte e muitas outras opções. Essa área de estudo é ideal para aqueles que têm paixão pela expressão criativa e desejam transformar essa paixão em uma carreira significativa.
+</p>
 </div>
 </div>
 
@@ -38,7 +47,7 @@
 <div class="pag3">
 <div class="titulo">
 <hr>
-<h2>ASSUNTO</h2>
+<h2>CARREIRA</h2>
 <hr>
 </div>
 
@@ -46,15 +55,15 @@
 <img src="img/imagem3.png" alt="moçodechapeu" class="png1">
 
 <aside>
-<h1>TITULO</h1>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+<h1>TRABALHO</h1>
+<p>A área artística oferece uma ampla variedade de oportunidades de trabalho em disciplinas como artes visuais, design gráfico, moda, cinema, teatro, música, arquitetura, entre outras. Os profissionais artísticos atuam em criação, produção, ensino e gestão cultural, adaptando-se a uma série de indústrias e expressões criativas. A escolha de carreira na área artística depende dos interesses e habilidades individuais.</p>
 </aside>
 </div>
 
 <div class="pag4">
     <div class="titulo">
     <hr class="hr1">
-    <h2>ASSUNTO</h2>
+    <h2>VER MAIS?</h2>
     <hr class="hr2">
 </div>
 
@@ -68,7 +77,6 @@
 </div>
 
 </div>
-
+<script src="script.js"></script>
 </body>
-
 </html>
