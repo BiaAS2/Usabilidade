@@ -87,10 +87,9 @@ button:hover {
 
 #resultado {
   background-color: rgba(255, 255, 255, 0.801);
-  height: 3rem;
-  width: 8rem;
+
   border-radius: 0.3rem;
-  padding: 0.7rem;
+
   position: absolute;
   bottom: 200px;
   left: 46%;
