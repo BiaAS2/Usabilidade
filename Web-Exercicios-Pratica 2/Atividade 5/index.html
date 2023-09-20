@@ -9,20 +9,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto&display=swap" rel="stylesheet" />
   </head>
-  <body id="a">
-    <div class="formulario">
-      <h1>Atividade 5</h1>
-      <div class="formArea">
-        <form>
-          <label for="valor1">Insira o valor do 1º Cateto</label>
-          <input type="number" id="valor1" name="valor1" required />
-          <label for="valor2">Insira o valor do 2º Cateto</label>
-          <input type="number" id="valor2" name="valor2" required />
-          <button type="button" onclick="calcularHipo()">Calcular</button>
-        </form>
-        <div id="resultado"></div>
+  <body>
+    <div class="container">
+      <div class="formulario">
+        <h1>Atividade 5</h1>
+        <div class="formArea">
+          <form>
+            <label for="valor1">Insira o valor do 1º cateto</label>
+            <input type="number" id="valor1" name="valor1" required />
+            <label for="valor2">Insira o valor do 2º cateto</label>
+            <input type="number" id="valor2" name="valor2" required />
+            <button type="button" onclick="calcularHipo()">Calcular</button>
+          </form>
+        </div>
       </div>
+      <div id="resultado"></div>
     </div>
-    <script src="./script.js"></script>
   </body>
+  <script src="./script.js"></script>
 </html>
