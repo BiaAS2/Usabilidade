@@ -35,3 +35,12 @@
 .btn {
   padding: 0.5rem;
 }
+
+#result {
+  position: absolute;
+  top: 70%;
+
+  background-color: rgba(255, 255, 255, 0.8);
+
+  border-radius: 0.3rem;
+}

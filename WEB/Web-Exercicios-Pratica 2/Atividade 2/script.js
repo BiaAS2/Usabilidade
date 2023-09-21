@@ -5,5 +5,5 @@ function calcular() {
   var porcent = salar * 0.25;
   var total = salar + porcent;
 
-  resultado.innerText = total + " REAIS";
+  resultado.innerText = `Seu salario + 25% é igual a ${total}`;
 }
