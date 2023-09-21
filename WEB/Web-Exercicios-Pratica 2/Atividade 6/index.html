@@ -10,32 +10,33 @@
   <body>
     <div class="container1">
       <div id="retangulo">
-        <div id="circulo"></div>
-        <img src="assets/IMG/raioIcon.png" alt="Raio da matemática" />
-
+        <div id="circulo">
+          <img src="assets/IMG/raioIcon.png" alt="Raio da matemática" />
+        </div>
         <label for="raio">Insira o valor do raio</label>
-        <input type="number" name="raio" id="raio" />
-        <button type="button" onclick="mostrarCalculos()">Calcular</button>
+        <div id="inserirNum">
+          <input type="number" name="raio" id="raio" />
+          <button type="button" onclick="mostrarCalculos()">Calcular</button>
+        </div>
       </div>
     </div>
 
-    <div class="container2">
-      <div id="quadrado1">
-        <div id="circulo"></div>
+    <div class="containerValores">
+      <div id="quadrado">
+        <div id="circulos"></div>
+        <h2>Comprimento da Esfera:</h2>
         <div id="comprimento"></div>
       </div>
-    </div>
 
-    <div class="container3">
-      <div id="quadrado2">
-        <div id="circulo"></div>
+      <div id="quadrado">
+        <div id="circulos"></div>
+        <h2>Área da Esfera:</h2>
         <div id="area"></div>
       </div>
-    </div>
 
-    <div class="container3">
-      <div id="quadrado3">
-        <div id="circulo"></div>
+      <div id="quadrado">
+        <div id="circulos"></div>
+        <h2>Volume da Esfera:</h2>
         <div id="volume"></div>
       </div>
     </div>

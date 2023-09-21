@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mooli", sans-serif;
+}
+
+body {
+  background: linear-gradient(-90deg, #5644c5 39.69%, #171047 73.77%);
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 7rem;
+}
+
+#retangulo {
+  width: 40rem;
+  height: 20rem;
+  border-radius: 20px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+#circulo {
+  display: flex;
+  width: 9rem;
+  height: 9rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 7.5rem;
+}
+
+img {
+  width: 7rem;
+  height: 7rem;
+  flex-shrink: 0;
+}
+
+#inserirNum {
+  display: flex;
+  position: relative;
+  bottom: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+label {
+  padding: 4px;
+  position: relative;
+  bottom: 5rem;
+  font-size: 2rem;
+  color: #000;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+input[type="number"] {
+  -webkit-appearance: none;
+  -moz-appearance: textfield; /* Para Firefox */
+  appearance: none;
+  border-radius: 0.4rem;
+  background-color: #8a88ff;
+  border: none;
+  width: 20rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0.5rem;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  border: 1px solid #490c83cc;
+}
+
+button {
+  border-radius: 0.4rem;
+  background-color: #7774fc;
+  border: none;
+  width: max-content;
+  height: 3rem;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #fff;
+}
+button:hover {
+  background-color: #3c45a1;
+  transition: ease-in-out 0.2s;
+}
+
+.containerValores {
+  display: flex;
+  width: auto;
+  height: 24rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2rem;
+  position: relative;
+  bottom: 5rem;
+  padding: 1rem;
+}
+
+#quadrado {
+  background: #fff;
+  display: flex;
+  width: 20rem;
+  height: 15rem;
+  border-radius: 10%;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+  margin: 1rem;
+}
+
+h2 {
+  display: flex;
+  position: relative;
+  bottom: 1.5rem;
+  text-align: center;
+}
+
+#comprimento,
+#area,
+#volume {
+  display: flex;
+  width: 15rem;
+  height: 10rem;
+  align-items: baseline;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+#circulos {
+  display: flex;
+  width: 8rem;
+  height: 9rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 2.5rem;
+}
