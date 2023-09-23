@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/IMG/preview-templates.png" alt="Projeto - Animated Login">
+</p>
+
 ## PARTICIPANTES
 
 - Beatriz Alves De Souza - 32217235
