@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  color: black;
+}
+
+:root {
+  --header-color: rgba(73, 73, 220, 0.8);
+  --header-text-color: rgba(255, 255, 255, 0.8);
+  --container-color: rgba(255, 255, 255, 0.8);
+  --content-result-color: rgba(0, 0, 0, 0.2);
+}
+
+.cabecalho {
+  width: 100vw;
+  height: 10vh;
+  position: absolute;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--header-color);
+}
+
+.cabecalho ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+
+  list-style: none;
+  padding: 0 0 0 2rem;
+}
+
+.cabecalho li {
+  width: 1rem;
+  height: 1rem;
+  padding: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  clip-path: circle();
+
+  background-color: var(--header-text-color);
+}
+
+.cabecalho .active {
+  background-color: rgb(160, 160, 235);
+}
+
+.praticaAtual {
+  font-size: 2rem;
+  padding-right: 1rem;
+  color: var(--header-text-color);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  background-color: var(--container-color);
+}
+
+.content {
+  width: 50vw;
+  height: 50vh;
+
+  border-radius: 1%;
+  background: var(--content-result-color);
+}
+
+.result {
+  width: 50vw;
+  height: 5rem;
+
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1%;
+  bottom: 3rem;
+  background: var(--content-result-color);
+}
