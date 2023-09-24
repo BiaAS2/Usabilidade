@@ -1,9 +1,9 @@
 function calcularIdade() {
-  var anoNascimento = document.getElementById("ano-nascimento").value;
-  var anoAtual = document.getElementById("ano-atual").value;
-  var idade = anoAtual - anoNascimento;
-  let ress = document.getElementById("resultado");
+  const anoNascimento = document.getElementById("ano-nascimento").value;
+  const anoAtual = document.getElementById("ano-atual").value;
+  const idade = anoAtual - anoNascimento;
+  const ress = document.querySelector('.result');
 
   ress.innerHTML = "Idade: " + idade + " anos";
-  ress.style.padding = "1rem";
+  ress.style.color = "red" 
 }

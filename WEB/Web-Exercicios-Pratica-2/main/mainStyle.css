@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -11,6 +12,12 @@ body {
 
 a {
   color: black;
+  padding: 1rem;
+}
+
+h1 {
+  color: black;
+  padding-bottom: 0.5rem;
 }
 
 :root {
@@ -77,11 +84,14 @@ a {
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+
   width: 50vw;
   height: 50vh;
-
+  
   border-radius: 1%;
-  background: var(--content-result-color);
+  /* background: var(--content-result-color); */
 }
 
 .result {
@@ -94,6 +104,56 @@ a {
   align-items: center;
   justify-content: center;
   border-radius: 1%;
-  bottom: 3rem;
-  background: var(--content-result-color);
+  bottom: 4rem;
+  /* background: var(--content-result-color); */
+}
+
+.formArea {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+input {
+  padding: 0 0 0 0.3rem;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+  height: 45vh;
+  padding: 2rem;
+  gap: 1rem;
+  border-radius: 0.5rem;
+}
+
+input[type="number"] {
+  -webkit-appearance: none;
+  -moz-appearance: textfield; /* Para Firefox */
+  appearance: none;
+  border-radius: 0.5rem;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+  border-radius: 0.5rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+button:hover {
+  background-color: rgba(255, 0, 0, 0.8);
+  color: white;
 }
