@@ -16,7 +16,6 @@ class Home extends StatelessWidget {
         leading: const Icon(Icons.home),
         title: const Text('Página Inicial'),
       ),
-
       body: Center(
         child: RichText(
           textDirection: TextDirection.ltr,
@@ -29,19 +28,16 @@ class Home extends StatelessWidget {
               fontWeight: FontWeight.bold,
               backgroundColor: Colors.white,
             ),
-
             children: <TextSpan>[
               TextSpan(
-                text: nome,
-                style: const TextStyle(
-                  color: Colors.blue,
-                  backgroundColor: Color.fromARGB(255, 139, 230, 142),
-                )
-              ),
+                  text: nome,
+                  style: const TextStyle(
+                    color: Colors.blue,
+                    backgroundColor: Color.fromARGB(255, 139, 230, 142),
+                  )),
               TextSpan(
                 text: '!',
               ),
-
               TextSpan(
                 text: '\nHoje é $dia!',
                 style: const TextStyle(
@@ -51,16 +47,13 @@ class Home extends StatelessWidget {
                   backgroundColor: Colors.yellow,
                 ),
               ),
-
               const TextSpan(
                 text: ' \nBom dia!',
               ),
-              
             ],
           ),
         ),
       ),
-
       backgroundColor: Colors.black,
       floatingActionButton: const FloatingActionButton(
         onPressed: null,
