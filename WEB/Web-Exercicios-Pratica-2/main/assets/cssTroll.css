@@ -1,0 +1,30 @@
+.surprise {
+  display: none;
+}
+
+.bruh {
+  display: block;
+  width: 100vw;
+}
+
+p{
+    z-index: 1;
+    position: absolute;
+    color: rgb(255, 255, 255);
+
+    top: 20%;
+    right: 38%;
+    font-size: 3rem;
+}
+
+img {
+  width: 100vw;
+  height: 90vh;
+  position: absolute;
+  bottom: 0;
+ 
+}
+
+.nobtn {
+  display: none;
+}

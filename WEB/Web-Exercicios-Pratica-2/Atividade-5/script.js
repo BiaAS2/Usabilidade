@@ -1,9 +1,13 @@
-function calcularHipo() {
-  var cat1 = document.getElementById('valor1').value
-  var cat2 = document.getElementById('valor2').value
+const btn = document.querySelector("button");
 
-  //calcular os catetos
-  const hipotenusa = Math.sqrt(Math.pow(cat1, 2) + Math.pow(cat2, 2)).toFixed(2);
-  
-  document.getElementById('resultado').innerHTML = 'O valor da hipotenusa é: ' + hipotenusa;
-}
+btn.addEventListener("click", () => {
+  const cat1 = Number(document.querySelector(".valor1").value);
+  const cat2 = Number(document.querySelector(".valor2").value);
+  const hipotenusa = Math.sqrt(Math.pow(cat1, 2) + Math.pow(cat2, 2)).toFixed(
+    2
+  );
+  const resultado = document.querySelector(".result");
+
+  resultado.innerText = `O valor da hipotenusa é: ${hipotenusa}`;
+  resultado.style.color = "red";
+});

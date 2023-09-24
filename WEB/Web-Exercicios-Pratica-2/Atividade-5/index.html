@@ -4,38 +4,57 @@
     <title>Calcular a Hipotenusa</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/CSS/style.css" />
-    <link rel="stylesheet" href="../main/mainStyle.css">
+    <link rel="stylesheet" href="../main/mainStyle.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ad3bd62660.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="cabecalho">
       <ul>
-        <li ><a href="../Atividade-1/index.html">1</a></li>
+        <li><a href="../Atividade-1/index.html">1</a></li>
         <li><a href="../Atividade-2/index.html">2</a></li>
         <li><a href="../Atividade-3/index.html">3</a></li>
         <li><a href="../Atividade-4/index.html">4</a></li>
-        <li><a class="active" href="../Atividade-5/index.html">5</a></li>
+        <li class="active"><a href="../Atividade-5/index.html">5</a></li>
         <li><a href="../Atividade-6/index.html">6</a></li>
       </ul>
+      <div class="home">
+        <a href="../main/mainIndex.html"
+          ><i
+            class="fa-solid fa-house fa-2xl"
+            style="color: rgba(0, 0, 0, 0.8)"
+          ></i
+        ></a>
+      </div>
       <div class="praticaAtual">Pratica 5</div>
     </header>
     <div class="container">
-      <div class="formulario">
-        <h1>Atividade 5</h1>
+      <div class="content">
+        <h1>Calculo da Hipotenusa</h1>
         <div class="formArea">
           <form>
             <label for="valor1">Insira o valor do 1º cateto</label>
-            <input type="number" id="valor1" name="valor1" required />
+            <input type="number" class="valor1" name="valor1" required />
             <label for="valor2">Insira o valor do 2º cateto</label>
-            <input type="number" id="valor2" name="valor2" required />
-            <button type="button" onclick="calcularHipo()">Calcular</button>
+            <input type="number" class="valor2" name="valor2" required />
+            <button type="button">Calcular</button>
           </form>
         </div>
       </div>
-      <div id="resultado"></div>
+      <div class="result"></div>
     </div>
   </body>
   <script src="./script.js"></script>
