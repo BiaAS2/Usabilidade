@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() => runApp(
-      MaterialApp(
+      const MaterialApp(
         home: Home(),
         debugShowCheckedModeBanner: false,
       ),
@@ -9,6 +9,8 @@ void main() => runApp(
 
 class Home extends StatelessWidget {
   final String nome = "Ana", dia = "quinta-feira";
+
+  const Home({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,7 +37,7 @@ class Home extends StatelessWidget {
                     color: Colors.blue,
                     backgroundColor: Color.fromARGB(255, 139, 230, 142),
                   )),
-              TextSpan(
+              const TextSpan(
                 text: '!',
               ),
               TextSpan(

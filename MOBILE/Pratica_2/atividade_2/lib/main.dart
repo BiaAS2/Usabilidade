@@ -19,14 +19,14 @@ class Home extends StatelessWidget {
         child: Row(
           mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.end,
-          children: const [
+          children: [
             //1ª imagem
             Expanded(
               child: FittedBox(
                 fit: BoxFit.contain,
                 child: Image(
                   image: NetworkImage(
-                    'https://picsum.photos/250?image=10', 
+                    'https://picsum.photos/250?image=10',
                   ),
                 ),
               ),
@@ -38,7 +38,7 @@ class Home extends StatelessWidget {
                 fit: BoxFit.contain,
                 child: Image(
                   image: NetworkImage(
-                    'https://picsum.photos/250?image=25', 
+                    'https://picsum.photos/250?image=25',
                   ),
                 ),
               ),
@@ -50,7 +50,7 @@ class Home extends StatelessWidget {
                 fit: BoxFit.contain,
                 child: Image(
                   image: NetworkImage(
-                    'https://picsum.photos/250?image=15', 
+                    'https://picsum.photos/250?image=15',
                   ),
                 ),
               ),
