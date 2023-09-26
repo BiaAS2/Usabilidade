@@ -89,9 +89,13 @@ h1 {
 
   width: 50vw;
   height: 50vh;
-  
+
   border-radius: 1%;
   /* background: var(--content-result-color); */
+}
+
+.content h1 {
+  text-align: center;
 }
 
 .result {
