@@ -5,6 +5,7 @@ void main() => runApp(MaterialApp(
       debugShowCheckedModeBanner: false,
     ));
 
+// ignore: use_key_in_widget_constructors
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -22,7 +23,7 @@ class Home extends StatelessWidget {
           fontWeight: FontWeight.bold,
         ),
       )),
-      backgroundColor: Colors.blue[900],
+      backgroundColor: const Color.fromARGB(255, 41, 75, 80),
       floatingActionButton: const FloatingActionButton(
         onPressed: null,
         tooltip: 'Exemplo de botão',

@@ -1,29 +1,42 @@
+// ignore_for_file: avoid_print
+
+//2) Possua uma classe para armazenar os dados dos produtos de uma fábrica.
+
 class Produto {
   String nome;
-  double preco;
-  int codigo;
   String categoria;
+  double preco;
+  int codigoDeBarra;
 
-  Produto(this.nome, this.preco, this.codigo, this.categoria);
+  Produto(this.nome, this.categoria, this.preco, this.codigoDeBarra);
 
-  // Método para exibir os detalhes do produto
+  // Método para exibir os detalhes do Produto
   void mostrarDetalhes() {
     print('Nome: $nome');
     print('Preço: R\$ $preco');
-    print('Código: $codigo');
+    print('Código: $codigoDeBarra');
     print('Categoria: $categoria');
   }
 }
 
 void main() {
-  // Exemplo de utilização da classe Produto
-  var produto1 = Produto('Camiseta', 29.99, 1001, 'Vestuário');
-  var produto2 = Produto('Notebook', 1499.99, 2002, 'Eletrônicos');
+  // Criar uma lista de Produtos
+  List<Produto> produtos = [
+    Produto('Hardware', 'Coolers', 254.99, 1001),
+    Produto('Hardware', 'HD', 439.99, 1002),
+    Produto('Hardware', 'Fonte', 499.99, 1003),
+    Produto('Hardware', 'Memória RAM', 179.99, 1004),
+    Produto('Hardware', 'Placa De video', 1.300, 1005),
+    Produto('Hardware', 'Placa Mão', 599.99, 1006),
+    Produto('Hardware', 'Processadores', 1.250, 10017),
+    Produto('Hardware', 'SSD', 259.99, 1008),
+  ];
 
-  // Exibir os detalhes dos produtos
-  print('Detalhes do Produto 1:');
-  produto1.mostrarDetalhes();
-
-  print('\nDetalhes do Produto 2:');
-  produto2.mostrarDetalhes();
+  // Exibir os detalhes dos Produtos usando um loop
+  for (var i = 0; i < produtos.length; i++) {
+    print('\n_______________________________');
+    print('\nDetalhes do Produto ${i + 1}:');
+    produtos[i].mostrarDetalhes();
+    print('_______________________________');
+  }
 }
