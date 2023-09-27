@@ -22,9 +22,17 @@
 
     <h2>Atividade 1</h2>
 
-    <div class="imagens">
-      <img src="https://source.unsplash.com/random/600x600/?home" alt="Casa" />
-      <img src="https://source.unsplash.com/random/600x600/?animals" alt="Casa" />
+    <form class="form" method="get" action="">
+      <label for="anoNascimento">Insira seu ano de nascimento: </label>
+      <input type="date" name="ano de nascimento" id="anoNascimento" />
+      <label for="anoAtual">Insira o ano atual: </label>
+      <input type="date" name="ano atual" id="anoAtual" />
+      <input type="submit" />
+    </form>
+    <div class="resultado">
+      <div class="idadeAnoAtual"></div>
+      <div class="idade2050"></div>
     </div>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
