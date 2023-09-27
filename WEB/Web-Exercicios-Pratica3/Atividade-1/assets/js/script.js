@@ -24,7 +24,7 @@ function calculaAno() {
     const idadeNormal = Math.floor(diferencaAnos);
 
     resultadoIdadeAtual.innerHTML = `A sua idade atual é ${idadeNormal}`;
-    resultadoIdade2050.innerHTML = `A sua idade atual é ${idade2050}`;
+    resultadoIdade2050.innerHTML = `A sua idade no ano de 2050 será ${idade2050}`;
   });
 }
 calculaAno();
