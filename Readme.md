@@ -9,5 +9,4 @@
 - Gabriel Anjos - 322123390
 - João Vitor Da Silva Jesus - 32227515
 - Lucelho Crisitano Vieira Da Silva - 32218540
-- Pedro Henrique Pinheiro Frois - 322117445
 - Rafael Prazeres Moura - 322117187
