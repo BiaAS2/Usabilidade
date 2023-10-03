@@ -3,6 +3,46 @@
   margin: 0;
   box-sizing: border-box;
 }
-.container{
-  background-image: url();
+.container {
+background: url(../IMG/background1.png);
+background-repeat: no-repeat;
+display: flex;
+}
+.nav{
+flex-direction: column;
+background-color: black;
+padding-bottom: 10%;
+color: white;
+justify-content: space-between;
+}
+.nav>img{
+  width: 120px;
+}
+.nav>ul>li>h3{
+  transform: rotate(90deg);
+  margin-top: 150px;
+  text-align: center;
+  
+}
+.container2{
+  background-color: rgba(61, 80, 52, 0.8);
+  width: 30%;
+}
+.bloco1{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 30px;
+  background-color:;
+}
+.bloco1>.title>h3{
+  font-size: 50px;
+}
+.bloco1>.title>h1{
+  font-size: 120px;
+}
+.bloco1>.descrição{
+  font-size: 30px;
+  padding-top: 140px;
+  width: 50vh;
 }
