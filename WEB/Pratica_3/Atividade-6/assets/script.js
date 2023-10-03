@@ -5,12 +5,12 @@ btn.addEventListener("click", () => {
   const sexo = document.querySelector("#sexo").value;
   const ress = document.querySelector(".ress");
 
-  const IMCh = 72.2 * altura - 58;
+  const pesoh = 72.2 * altura - 58;
 
-  const IMCm = 62.1 * altura - 44.7;
+  const pesom = 62.1 * altura - 44.7;
   if (sexo === "masculino") {
-    ress.innerHTML = `O seu IMC é ${Math.floor(IMCh)}`;
+    ress.innerHTML = `O seu peso ideal é ${Math.floor(pesoh)}`;
   } else {
-    ress.innerHTML = `O seu IMC é ${Math.floor(IMCm)}`;
+    ress.innerHTML = `O seu peso ideal é ${Math.floor(pesom)}`;
   }
 });
