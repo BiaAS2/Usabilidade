@@ -1,6 +1,8 @@
-body {
-  background: url(../IMG/Una.jpeg) no-repeat top center/cover;
-  font-family: "Roboto", sans-serif;
-  width: 100vw;
-  height: 100vh;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  background-image: url();
 }
