@@ -5,27 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../header/header.css" />
     <link rel="stylesheet" href="assets/CSS/style.css" />
-    <title>Imagens</title>
+    <title>Tabela 1</title>
   </head>
 
   <body>
     <header class="cabecalho">
       <ul>
-        <li class="active"><a href="../Atividade-1/index.html">1</a></li>
-        <li><a href="../Atividade-2/index.html">2</a></li>
-        <li><a href="../Atividade-3/index.html">3</a></li>
-        <li><a href="../Atividade-4/index.html">4</a></li>
-        <li><a href="../Atividade-5/index.html">5</a></li>
-        <li><a href="../Atividade-6/index.html">6</a></li>
-        <li><a href="../Atividade-7/index.html">7</a></li>
+        <li class="active"><a href="../atividade_1/index.html">1</a></li>
+        <li><a href="../atividade_2/index.html">2</a></li>
+        <li><a href="../atividade_3/index.html">3</a></li>
       </ul>
     </header>
 
     <h2>Atividade 1</h2>
 
-    <div class="imagens">
-      <img src="https://source.unsplash.com/random/400x400/?home" alt="Casa" />
-      <img src="https://source.unsplash.com/random/400x400/?animals" alt="Casa" />
-    </div>
+    <table id="tabela">
+      <thead>
+        <tr>
+          <th>Nome do Aluno</th>
+          <th>Nota P1</th>
+          <th>Nota P2</th>
+          <th>Nota T1</th>
+          <th>Nota Total</th>
+          <th>Faltas</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td contenteditable="true"></td>
+          <td contenteditable="true" oninput="calcularNotas(this)"></td>
+          <td contenteditable="true" oninput="calcularNotas(this)"></td>
+          <td contenteditable="true" oninput="calcularNotas(this)"></td>
+          <td class="notaTotal"></td>
+          <td contenteditable="true"></td>
+        </tr>
+        <tr>
+          <td contenteditable="true"></td>
+          <td contenteditable="true" oninput="calcularNotas(this)"></td>
+          <td contenteditable="true" oninput="calcularNotas(this)"></td>
+          <td contenteditable="true" oninput="calcularNotas(this)"></td>
+          <td class="notaTotal"></td>
+          <td contenteditable="true"></td>
+        </tr>
+        <tr>
+          <td contenteditable="true"></td>
+          <td contenteditable="true" oninput="calcularNotas(this)"></td>
+          <td contenteditable="true" oninput="calcularNotas(this)"></td>
+          <td contenteditable="true" oninput="calcularNotas(this)"></td>
+          <td class="notaTotal"></td>
+          <td contenteditable="true"></td>
+        </tr>
+        <tr>
+          <td contenteditable="true"></td>
+          <td contenteditable="true" oninput="calcularNotas(this)"></td>
+          <td contenteditable="true" oninput="calcularNotas(this)"></td>
+          <td contenteditable="true" oninput="calcularNotas(this)"></td>
+          <td class="notaTotal"></td>
+          <td contenteditable="true"></td>
+        </tr>
+        <tr>
+          <td contenteditable="true"></td>
+          <td contenteditable="true" oninput="calcularNotas(this)"></td>
+          <td contenteditable="true" oninput="calcularNotas(this)"></td>
+          <td contenteditable="true" oninput="calcularNotas(this)"></td>
+          <td class="notaTotal"></td>
+          <td contenteditable="true"></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Média da Turma</td>
+          <td colspan="1" id="mediaTurma"></td>
+        </tr>
+      </tfoot>
+    </table>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
