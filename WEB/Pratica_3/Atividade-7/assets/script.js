@@ -10,13 +10,13 @@ btn.addEventListener("click", () => {
   let valorCredito3x = valorProduto + valorProduto * 0.06;
 
   if (formaPagamento === "pix") {
-    ress.innerHTML = `O valor da sua venda sairá por ${valorPix}`;
+    ress.innerHTML = `O valor da sua compra sairá por ${valorPix}`;
   } else if (formaPagamento === "creditoAVista") {
-    ress.innerHTML = `O valor da sua venda sairá por ${valorCreditoAVista}`;
+    ress.innerHTML = `O valor da sua compra sairá por ${valorCreditoAVista}`;
   } else if (formaPagamento === "duasVezes") {
-    ress.innerHTML = `O valor da sua venda sairá por ${valorProduto}`;
+    ress.innerHTML = `O valor da sua compra sairá por ${valorProduto}`;
   } else {
-    ress.innerHTML = `O valor da sua venda sairá por ${valorCredito3x}`;
+    ress.innerHTML = `O valor da sua compra sairá por ${valorCredito3x}`;
   }
 
   ress.style.marginTop = "2rem"
