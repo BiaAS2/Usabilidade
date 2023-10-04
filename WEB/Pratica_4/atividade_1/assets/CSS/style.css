@@ -4,14 +4,23 @@ table {
   margin: 20px auto;
 }
 
-table,
 th,
 td {
   border: 1px solid black;
-}
-
-th,
-td {
   text-align: center;
   padding: 10px;
+}
+
+tbody tr:hover {
+  background-color: #ffffff;
+  color: #ff4500;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+tr:nth-child(even) {
+  background-color: #8b9dc3;
+}
+tr:nth-child(odd) {
+  background-color: #dfe3ee;
 }

@@ -13,7 +13,7 @@
   height: 10vh;
   justify-content: space-between;
   align-items: center;
-  background-color: #56a8f3;
+  background-color: #6296c7;
   padding: 1rem;
   color: #fff;
   list-style: none;
@@ -29,7 +29,10 @@
 }
 
 .cabecalho .active {
-  background-color: #b2c8e7;
+  background-color: #1e3a79;
+}
+.cabecalho .active a {
+  color: #fff;
 }
 
 .cabecalho li {
