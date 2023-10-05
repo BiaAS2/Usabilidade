@@ -11,16 +11,26 @@ td {
   padding: 10px;
 }
 
+thead {
+  background-color: #244180;
+  color: #ffffff;
+}
+
 tbody tr:hover {
-  background-color: #ffffff;
+  background-color: #ffffff !important;
   color: #ff4500;
   font-weight: bold;
   font-size: 1.5rem;
 }
 
-tr:nth-child(even) {
+tbody tr:nth-child(even) {
   background-color: #8b9dc3;
 }
-tr:nth-child(odd) {
+tbody tr:nth-child(odd) {
   background-color: #dfe3ee;
+}
+
+tfoot {
+  background-color: #ff4500;
+  color: #fff;
 }

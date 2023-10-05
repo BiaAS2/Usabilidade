@@ -5,21 +5,32 @@ function calcularNotas(cell) {
   var t1 = parseFloat(row.cells[3].textContent) || 0
 
   var total = p1 + p2 + t1
-  row.cells[4].textContent = total.toFixed(2) // Exibe a média com 2 casas decimais
+  row.cells[4].textContent = total.toFixed(1) // Exibe a média com 2 casas decimais
 
-  var tabela = document.getElementById("tabela").getElementsByTagName("tbody")[0]
-  var linhas = tabela.getElementsByTagName(".notaTotal")
+  // Chamar a função inicialmente
+  calcularMedia()
+}
 
-  // Loop pelas linhas da tabela
-  for (var i = 0; i < linhas.length; i++) {
-    var celulaNota = linhas[i].getElementsByTagName("td")[1]
-    var nota = parseFloat(celulaNota.textContent)
-    if (!isNaN(nota)) {
-      total += nota
+function calcularMedia() {
+  const tabela = document.getElementById("tabela")
+  const linhas = tabela.querySelectorAll("tbody tr")
+  let soma = 0
+  let count = 0
+
+  linhas.forEach((linha) => {
+    const colunas = linha.querySelectorAll("td")
+    for (let i = 4; i < colunas.length; i++) {
+      const valor = parseFloat(colunas[i].textContent)
+      if (!isNaN(valor)) {
+        soma += valor
+        count++
+      }
     }
-  }
+  })
 
-  // Calcula a média e atualiza a célula de média
-  var media = total / tabela.rows.length
-  document.getElementById("mediaTurma").textContent = media.toFixed(2) // Limita a 2 casas decimais
+  const media = count > 0 ? soma / count : 0
+  document.getElementById("mediaTurma").textContent = media.toFixed(1)
+
+  // Adicionar um ouvinte de evento para chamar a função sempre que houver uma mudança na tabela
+  document.getElementById("tabela").addEventListener("input", calcularMedia)
 }
