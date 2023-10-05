@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300&display=swap');
 *{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
 }
 .container {
 background: url(../IMG/background1.png);
+background-size: 100% 100%;
 background-repeat: no-repeat;
 display: flex;
+width: 100%;
+font-family: 'Martel', serif;
 }
 .nav{
 flex-direction: column;
@@ -14,35 +19,70 @@ background-color: black;
 padding-bottom: 10%;
 color: white;
 justify-content: space-between;
+
 }
 .nav>img{
+width: 120px;
+transition: all ease-in-out 0.3s;
+}
+.nav>img:hover{
+  transition: all ease-in-out 0.3s;
   width: 120px;
-}
-.nav>ul>li>h3{
-  transform: rotate(90deg);
-  margin-top: 150px;
-  text-align: center;
+  transform: rotate(-360deg);
+  background-color: red;
+  border-radius: 20px;
+  cursor:pointer;
+  }
   
+.nav>ul>li>h3{
+transform: rotate(-90deg);
+margin-top: 200px;
+text-align: left;
+transition: all ease-in-out 0.3s;
 }
+
+.nav>ul>li>h3:hover{
+transform: rotate(-0deg);
+color: black;
+background-color: white;
+border-radius: 20px;
+margin-top: 200px;
+padding: 15px;
+text-align: center;
+transition: all ease-in-out 0.3s;
+cursor: pointer;
+}
+
 .container2{
-  background-color: rgba(61, 80, 52, 0.8);
-  width: 30%;
+background-color: rgba(61, 80, 52, 0.6);
+width: 620px;
+height: 700px;
+border-radius: 0px 0px 20px 0px;
+
 }
 .bloco1{
-  display: flex;
-  flex-direction: column;
-  color: white;
-  padding: 30px;
+display: flex;
+flex-direction: column;
+color: white;
+padding: 30px;
 
 }
 .bloco1>.title>h3{
-  font-size: 50px;
+width: auto;
+font-size: 50px;
+font-weight: lighter;
+line-height: 90px;
+letter-spacing: 10px;
 }
-.bloco1>.title>h1{
-  font-size: 120px;
+.uc{
+font-size: 120px;
+color: rgba(129, 240, 174, 1);
+font-weight: bold;
+
 }
 .bloco1>.descrição{
-  font-size: 30px;
-  padding-top: 140px;
-  width: 50vh;
+font-size: 30px;
+padding-top: 180px;
+width: 50vh;
+line-height: 35px;
 }
