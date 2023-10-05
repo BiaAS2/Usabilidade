@@ -19,7 +19,7 @@ function calcularMedia() {
 
   linhas.forEach((linha) => {
     const colunas = linha.querySelectorAll("td")
-    for (let i = 4; i < colunas.length; i++) {
+    for (let i = 4; i < colunas.length - 1; i++) {
       const valor = parseFloat(colunas[i].textContent)
       if (!isNaN(valor)) {
         soma += valor
