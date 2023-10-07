@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
 *{
 padding: 0;
 margin: 0;
@@ -7,7 +8,7 @@ box-sizing: border-box;
 }
 .container {
 background: url(../IMG/background1.png);
-background-size: 100% 100%;
+background-size: cover;
 background-repeat: no-repeat;
 display: flex;
 width: 100%;
@@ -16,7 +17,8 @@ font-family: 'Martel', serif;
 .nav{
 flex-direction: column;
 background-color: black;
-padding-bottom: 10%;
+border-radius: 0px 0px 100px 0px;
+padding-bottom: 20%;
 color: white;
 justify-content: space-between;
 
@@ -26,14 +28,14 @@ width: 120px;
 transition: all ease-in-out 0.3s;
 }
 .nav>img:hover{
-  transition: all ease-in-out 0.3s;
-  width: 120px;
-  transform: rotate(-360deg);
-  background-color: red;
-  border-radius: 20px;
-  cursor:pointer;
-  }
-  
+transition: all ease-in-out 0.3s;
+width: 120px;
+transform: rotate(-360deg);
+background-color: red;
+border-radius: 20px;
+cursor:pointer;
+}
+
 .nav>ul>li>h3{
 transform: rotate(-90deg);
 margin-top: 200px;
@@ -85,4 +87,43 @@ font-size: 30px;
 padding-top: 180px;
 width: 50vh;
 line-height: 35px;
+}
+.pag2{
+background-image: url(../IMG/background2.png);
+background-size: 100%;
+} 
+.title2>h1{
+text-align: center;
+color: rgba(61, 80, 52, 1);
+padding: 15px;
+font-size: 50px;
+}
+.title2>h1>span{
+color: rgba(105, 182, 67, 1);
+}
+.bloco2{
+display: flex;
+flex-direction: row;
+align-content: center;
+align-items: center;
+padding: 250px;
+padding-top: 0px;
+}
+.bloco2>img{
+width: 550px;
+}
+.bloco2>ul{
+width: 1500px;
+display: flex;
+flex-direction: row;
+margin-left: auto;
+margin-right: auto;
+list-style: square;
+}
+.title3{
+font-size: 40px;
+font-family: 'Manrope', sans-serif;
+}
+.text2{
+font-size: 30px;
 }
