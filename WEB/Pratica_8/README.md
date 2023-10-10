@@ -1,4 +1,6 @@
 ﻿Atividade 1
+
+------------------------------------------------------------------------------------------------------------------------------
 FIGMA : https://www.figma.com/file/3UUY8Ug4NWrJTbY5o3jOaE/Untitled?type=design&node-id=0%3A1&mode=design&t=K9y5gdRIRdWNn6Nw-1
 ------------------------------------------------------------------------------------------------------------------------------
 Em HTML, CSS e JS, escreva um algoritmo que:
