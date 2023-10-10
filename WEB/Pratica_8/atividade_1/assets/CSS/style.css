@@ -1,0 +1,156 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+  animation: animarbody infinite 2s;
+}
+
+
+
+label {
+  display: block;
+  margin: 10px 0;
+  color: #333;
+}
+
+input {
+  padding: 8px;
+  font-size: 30px;
+  width: 200px;
+  box-sizing: border-box;
+  box-shadow: 0 0 0px 1px #927d47;
+  padding: 5px;
+}
+input:hover {
+  background-color: #cecece;
+  box-shadow: 0 0 0px 1px rgb(255, 124, 2)
+}
+
+
+button {
+  padding: 10px 8px;
+  width: 150px;
+  height: 65px;
+  font-size: 20px;
+  background-color: #CDA232;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 20px;
+
+  
+}
+
+button:hover {
+  background-color: #ffb700;
+  box-shadow: 0 0 0px 1px rgb(255, 255, 255)
+
+}
+
+h1{
+
+  color: #333;
+  margin: 50px;
+
+animation: animarH1 infinite 5s;
+}
+@keyframes animarH1 {
+  0% {
+    transform: scale(1);
+    
+  }
+  50% {
+    transform: scale(1.2);
+  
+  }
+  100% {
+    transform: scale(1);
+    
+  }
+}
+
+#fundo {
+  background: #fcde91;
+  margin: auto;
+  padding: 10px;
+  width: 800px;
+  height: 400px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 15px 0px black;
+  animation: animarfundo infinite 5s;
+  border-radius: 10px 10px 10px 10px;
+}
+@keyframes animarfundo {
+  0% {
+   
+    box-shadow: 0 0 5px 0px #CDA232
+  }
+  25% {
+   
+    box-shadow: 0 0 5px 0px #CDA232;
+  }
+  
+  50% {
+   
+    box-shadow: 0 0 15px 0px #CDA232;
+  }
+  100% {
+    
+    box-shadow: 0 0 20px 0px #70581a;
+  }
+  50% {
+   
+    box-shadow: 0 0 10px 0px #a17f29;
+  }
+  25% {
+   
+    box-shadow: 0 0 5px 0px #70581b;
+  }
+ 
+  0% {
+   
+    box-shadow: 0 0 5px 0px #70581b;
+  }
+ 
+}
+
+#resultado {
+  
+  font-size: 18px;
+  color: #333;
+  padding: 15px;
+  margin: auto;
+  border: 1px solid #ffb700; 
+  
+}
+.escondido {
+  display: none; 
+}
+
+
+#mosca {
+  position: absolute;
+  width: 50px; 
+  height: auto; 
+  margin-right: 1500px ;
+  animation: moverMosca 2s  linear 0s 1 forwards; 
+
+}
+#mosca:hover {
+  animation-play-state: paused; /* Pausa a animação quando o mouse está sobre a mosca */
+}
+
+@keyframes moverMosca {
+  0% {
+    bottom:  0; 
+  }
+  100% {
+    bottom:  100%; 
+    opacity: 0;
+  }
+}
