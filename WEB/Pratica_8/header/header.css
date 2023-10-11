@@ -17,6 +17,7 @@
   padding: 1rem;
   color: #fff;
   list-style: none;
+  box-shadow: 0 0 10px 1px black;
 }
 
 .cabecalho ul {
