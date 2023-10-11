@@ -1,23 +1,54 @@
-# Flutter app in Zapp!
+<h1 align="center"> Atividade 1 </h1>
 
-A new Flutter project built with Zapp!
+<p align="center">
+  <a href="#descrição-do-projeto">Descrição do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#como-utilizar">Como Utilizar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#autor">Autor</a>
+</p>
 
-----
+## Descrição do Projeto
 
-> To learn how to use Zapp! check out the [documentation](https://docs.zapp.run)
+Este código em Dart demonstra a definição de uma classe chamada Cliente e a criação de sete objetos de cliente. Cada objeto contém informações como nome, email, CEP, endereço e telefone. Além disso, o código também inclui um método para exibir os detalhes de cada cliente.
 
-----
+## Tecnologias Utilizadas
 
-## Getting Started
+- *Linguagens:* Dart
+- *Framework* Flutter
+- *Controle de Versão:* Git
+- *IDE:* Visual Studio Code
+- *Hospedagem do Código:* GitHub
 
-This project is a starting point for a Flutter application.
+## Como Utilizar
 
-A few resources to get you started if this is your first Flutter project:
+Para utilizar o projeto localmente, siga estas etapas:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Certifique-se de ter o ambiente Dart instalado em seu sistema.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- caso nao tenha instale o [Flutter](https://flutter.dev/) e tambem o [AndroidStudio](https://developer.android.com/studio?gclid=Cj0KCQjw9rSoBhCiARIsAFOiplmlWZxo3tQzwaykI1VFWD6bP7Sc5ev9P14URhxPh2ObbaM5Xi-c0acaAmR-EALw_wcB&gclsrc=aw.ds)
+- para facilitar a instalação indico voçê ler a documentação e assistir esse video [YOUTUBE](https://www.youtube.com/watch?v=wcO-Et_jpeo)
 
+2. Clone o repositório deste projeto:
+
+   bash
+   git clone https://github.com/LucelhoSilva/Usabilidade.git
+   cd atividade_1
+   
+
+3. Vá ate a pasta lib e execute o main.dart
+
+## Licença
+
+Este projeto está sob a [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE). Consulte o arquivo [LICENSE](./LICENSE) para obter mais detalhes.
+
+## Autor
+
+Feito por:
+Beatriz Alves De Souza - 32217235
+Bianca Mayra De Assis Aguiar - 322124358
+Gabriel Anjos - 322123390
+João Vitor Da Silva Jesus - 32227515
+Lucelho Crisitano Vieira Da Silva - 32218540
+Rafael Prazeres Moura - 322117187
+Pedro Henrique Pinheiro Frois - 322117445.
