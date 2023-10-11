@@ -10,3 +10,4 @@
 - João Vitor Da Silva Jesus - 32227515
 - Lucelho Crisitano Vieira Da Silva - 32218540
 - Rafael Prazeres Moura - 322117187
+- Pedro Henrique Pinheiro Frois - 322117445
