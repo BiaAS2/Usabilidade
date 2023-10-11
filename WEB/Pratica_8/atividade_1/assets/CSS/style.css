@@ -1,12 +1,18 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 20px;
-  background-color: #f4f4f4;
+
   text-align: center;
-  animation: animarbody infinite 2s;
+  
+
 }
-
-
+.fundo1 {
+ 
+  background-image: url('/WEB/Pratica_8/atividade_1/assets/IMG/ao.jpg'); /*nao consigo colocar imagem */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 label {
   display: block;
@@ -19,7 +25,7 @@ input {
   font-size: 30px;
   width: 200px;
   box-sizing: border-box;
-  box-shadow: 0 0 0px 1px #927d47;
+  box-shadow: 0 0 0px 1px #b8b4a9;
   padding: 5px;
 }
 input:hover {
@@ -49,12 +55,16 @@ button:hover {
 
 }
 
-h1{
-
+h1 {
   color: #333;
-  margin: 50px;
-
-animation: animarH1 infinite 5s;
+  margin: -120px;
+  margin-left: 165px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  animation: animarH1 infinite 5s;
+  position: absolute; 
+   
 }
 @keyframes animarH1 {
   0% {
@@ -85,6 +95,19 @@ animation: animarH1 infinite 5s;
   animation: animarfundo infinite 5s;
   border-radius: 10px 10px 10px 10px;
 }
+#fundo5 {
+  background: #fcde91;
+  margin: auto;
+  padding: 50px;
+  width: 800px;
+  height: 500px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px 50px 50px 50px;
+}
+
 @keyframes animarfundo {
   0% {
    
@@ -131,26 +154,17 @@ animation: animarH1 infinite 5s;
 .escondido {
   display: none; 
 }
-
-
-#mosca {
-  position: absolute;
-  width: 50px; 
-  height: auto; 
-  margin-right: 1500px ;
-  animation: moverMosca 2s  linear 0s 1 forwards; 
-
+h2{
+  padding:15px;
+  margin: 25px;
 }
-#mosca:hover {
-  animation-play-state: paused; /* Pausa a animação quando o mouse está sobre a mosca */
+footer {
+  margin: auto;
+  padding: auto;
+  background:#CDA232;
+  color: cornsilk;
+ /* background-repeat: no-repeat;
+  background-image:url('WEB/Pratica_8/atividade_1/assets/IMG/halftone_background_12.jpg'); */
 }
 
-@keyframes moverMosca {
-  0% {
-    bottom:  0; 
-  }
-  100% {
-    bottom:  100%; 
-    opacity: 0;
-  }
-}
+
