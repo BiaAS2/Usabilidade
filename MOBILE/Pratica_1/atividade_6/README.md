@@ -18,11 +18,11 @@ Este código é um exemplo de um aplicativo Flutter simples que cria uma página
 
 ## Tecnologias Utilizadas
 
-- *Linguagens:* Dart
-- *Framework* Flutter
-- *Controle de Versão:* Git
-- *IDE:* Visual Studio Code
-- *Hospedagem do Código:* GitHub
+- _Linguagens:_ Dart
+- _Framework_ Flutter
+- _Controle de Versão:_ Git
+- _IDE:_ Visual Studio Code
+- _Hospedagem do Código:_ GitHub
 
 ## Como Utilizar
 
@@ -38,7 +38,6 @@ Para utilizar o projeto localmente, siga estas etapas:
    bash
    git clone https://github.com/LucelhoSilva/Usabilidade.git
    cd atividade_6
-   
 
 3. Vá ate a pasta lib e execute o main.dart
 
@@ -56,4 +55,3 @@ João Vitor Da Silva Jesus - 32227515
 Lucelho Crisitano Vieira Da Silva - 32218540
 Rafael Prazeres Moura - 322117187
 Pedro Henrique Pinheiro Frois - 322117445.
-

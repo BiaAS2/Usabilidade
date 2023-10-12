@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
-  home: Home(),
-  debugShowCheckedModeBanner: false,
-));
+      home: Home(),
+      debugShowCheckedModeBanner: false,
+    ));
 
 class Home extends StatelessWidget {
   @override
@@ -35,4 +35,3 @@ class Home extends StatelessWidget {
     );
   }
 }
-

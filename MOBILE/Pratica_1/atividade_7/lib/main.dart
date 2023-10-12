@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
-  home: Home(),
-  debugShowCheckedModeBanner: false,
-));
+      home: Home(),
+      debugShowCheckedModeBanner: false,
+    ));
 
 class Home extends StatelessWidget {
   @override
@@ -22,7 +22,8 @@ class Home extends StatelessWidget {
             Container(
               padding: EdgeInsets.all(16), // Adicionando um espaçamento interno
               decoration: BoxDecoration(
-                color: Color.fromARGB(115, 180, 180, 180), // Cor do fundo da caixa
+                color:
+                    Color.fromARGB(115, 180, 180, 180), // Cor do fundo da caixa
                 borderRadius: BorderRadius.circular(8), // Borda arredondada
               ),
               child: const Column(
@@ -68,4 +69,3 @@ class Home extends StatelessWidget {
     );
   }
 }
-
