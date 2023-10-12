@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/img/atividade 6.jpeg" alt="Atividade 1">
+  <img src="" alt="Atividade 1">
 </p>
 
 ## Descrição do Projeto
