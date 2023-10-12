@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+.container {
+background: url(../IMG/background4.png);
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+width: 100%;
+font-family: 'Martel', serif;
+
+}
+.nav{
+flex-direction: column;
+background-color: black;
+border-radius: 0px 0px 100px 0px;
+padding-bottom: 20%;
+color: white;
+justify-content: space-between;
+}
+.nav>img{
+width: 120px;
+transition: all ease-in-out 0.3s;
+}
+.nav>img:hover{
+transition: all ease-in-out 0.3s;
+width: 120px;
+transform: rotate(-360deg);
+background-color: red;
+border-radius: 20px;
+cursor:pointer;
+}
+.nav>ul>li>h3{
+transform: rotate(-90deg);
+margin-top: 200px;
+text-align: left;
+transition: all ease-in-out 0.3s;
+}
+.links{
+color: white;
+text-decoration: none;
+padding-left: 10px;
+padding-right: 10px;
+}
+.links:hover{
+color: rgb(0, 0, 0);
+text-decoration: none;
+transition: all ease-in-out 0.3s;
+}
+.nav>ul>li>h3:hover{
+color: black;
+background-color: white;
+border-radius: 20px;
+margin-top: 200px;
+text-align: center;
+transition: all ease-in-out 0.3s;
+cursor: pointer;
+}
+
+.container2{
+background-color: rgba(121, 37, 169, 0.6);
+width: 710px;
+height: 700px;
+border-radius: 0px 0px 20px 0px;
+
+}
+.bloco1{
+display: flex;
+flex-direction: column;
+color: white;
+padding: 30px;
+
+}
+
+.bloco1>.title>h3{
+width: auto;
+font-size: 50px;
+font-weight: lighter;
+line-height: 90px;
+letter-spacing: 10px;
+overflow:hidden;
+}
+.uc{
+font-size: 120px;
+color: rgba(245, 181, 255, 1);
+font-weight: bold;
+
+}
+.bloco1>.descrição{
+font-size: 30px;
+padding-top: 180px;
+width: 50vh;
+line-height: 35px;
+}
+.pag2{
+background-image: url(../IMG/background7.png);
+background-size: 100%;
+} 
+.title2>h1{
+text-align: center;
+color: rgba(66, 15, 96, 1);
+padding: 15px;
+font-size: 50px;
+}
+.title2>h1>span{
+color: rgba(165, 50, 231, 1);
+
+}
+.bloco2{
+display: flex;
+flex-direction: row;
+align-content: center;
+align-items: center;
+padding: 250px;
+padding-top: 0px;
+
+
+}
+.bloco2>img{
+display: flex;
+width: 700px;
+overflow:hidden;
+}
+.bloco2>ul{
+width: 1500px;
+display: flex;
+flex-direction: row;
+margin-left: auto;
+margin-right: 50px;
+list-style-type: square;
+font-size: 24px;
+
+}
+.title3{
+font-size: 40px;
+font-family: 'Manrope', sans-serif;
+padding-right: 30px;
+text-align: left;
+}
+.text2{
+font-size: 30px;
+}
+.pag3{
+display: flex;
+flex-direction: row;
+background-image: url(../IMG/background5.png);
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+padding: 50px;
+
+}
+.pag3>.bloco3{
+display: flex;
+flex-direction:row;
+padding: 20px;
+align-items: center;
+align-content: center;
+
+}.pag3>.bloco4{
+display: flex;
+flex-direction:row;
+padding: 20px;
+align-items: center;
+align-content: center;
+}
+
+.title4{
+text-align: center;
+color: rgba(165, 50, 231, 1);
+padding: 20px;
+padding-bottom: 250px;
+font-size: 50px;
+} 
+.cards{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.card1{
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+text-align: center;
+padding: 20px;
+background-color: rgba(84, 67, 81, 1);
+width: 250px;
+border-radius: 20px;
+box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.26);
+}
+.card1>img{
+width: 200px;
+}
+.card1>.photo{
+width: 150px;
+border-radius: 100px;
+background-color: rgba(245, 181, 255, 1);
+padding: 5px;
+box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.26);
+}
+.card1>p{
+padding: 15px;
+}
+.card2{
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+text-align: center;
+padding: 20px;
+background-color: rgba(84, 67, 81, 1);
+width: 250px;
+border-radius: 20px;
+box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.26);
+}
+.card2>img{
+width: 200px;
+}
+.card2>.photo{
+width: 150px;
+border-radius: 100px;
+background-color: rgba(245, 181, 255, 1);
+padding: 5px;
+box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.26);
+}
+.card2>p{
+padding: 15px;
+}
+.card3{
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+text-align: center;
+padding: 20px;
+background-color: rgba(84, 67, 81, 1);
+width: 250px;
+border-radius: 20px;
+box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.26);
+}
+.card3>img{
+width: 200px;
+}
+.card3>.photo{
+width: 150px;
+border-radius: 100px;
+background-color: rgba(245, 181, 255, 1);
+padding: 5px;
+box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.26);
+}
+.card3>p{
+padding: 15px;
+}
+.card4{
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+text-align: center;
+padding: 20px;
+background-color: rgba(84, 67, 81, 1);
+width: 250px;
+border-radius: 20px;
+box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.26);
+}
+.card4>img{
+width: 200px;
+}
+.card4>.photo{
+width: 150px;
+border-radius: 100px;
+background-color: rgba(245, 181, 255, 1);
+padding: 5px;
+box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.26);
+}
+.card4>p{
+padding: 15px;
+}
