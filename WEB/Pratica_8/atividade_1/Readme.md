@@ -14,7 +14,7 @@
 
 ## Descrição do Projeto
 
-Esta página HTML representa os detalhes de um filme. Ela inclui informações como o nome do filme, preço, horários de exibição e outros detalhes relacionados à exibição do filme. Além disso, utiliza ícones FontAwesome para adicionar uma estrela que pode representar uma classificação.
+Essa página HTML cria uma calculadora de troco, onde o usuário pode inserir o valor pago e o valor da compra para calcular o troco.
 
 ## Tecnologias Utilizadas
 

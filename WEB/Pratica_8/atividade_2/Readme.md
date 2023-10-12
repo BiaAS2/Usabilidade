@@ -14,15 +14,15 @@
 
 ## Descrição do Projeto
 
-Esta página HTML representa os detalhes de um filme. Ela inclui informações como o nome do filme, preço, horários de exibição e outros detalhes relacionados à exibição do filme. Além disso, utiliza ícones FontAwesome para adicionar uma estrela que pode representar uma classificação.
+Este código HTML é a estrutura básica de uma página da web que parece ser dedicada a explorar as áreas de "Arte e Design"
 
 ## Tecnologias Utilizadas
 
-- _Linguagens:_ Dart
-- _Framework_ Flutter
-- _Controle de Versão:_ Git
-- _IDE:_ Visual Studio Code
-- _Hospedagem do Código:_ GitHub
+- *Linguagens:* Dart
+- *Framework* Flutter
+- *Controle de Versão:* Git
+- *IDE:* Visual Studio Code
+- *Hospedagem do Código:* GitHub
 
 ## Como Utilizar
 
@@ -38,6 +38,7 @@ Para utilizar o projeto localmente, siga estas etapas:
    bash
    git clone https://github.com/LucelhoSilva/Usabilidade.git
    cd atividade_1
+   
 
 3. Vá ate a pasta lib e execute o main.dart
 

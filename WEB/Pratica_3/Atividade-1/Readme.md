@@ -1,4 +1,4 @@
-<h1 align="center"> Atividade 3 </h1>
+<h1 align="center"> Atividade 1 </h1>
 
 <p align="center">
   <a href="#descrição-do-projeto">Descrição do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -14,7 +14,7 @@
 
 ## Descrição do Projeto
 
-O código HTML que você forneceu descreve uma página da web de produtos com informações sobre diferentes frutas (manga, abacate, banana e melancia) que estão disponíveis para compra.
+Esta página HTML exibe imagens aleatórias relacionadas a palavras-chave específicas na "Atividade 1". Ela inclui navegação para outras atividades por meio de um menu no cabeçalho e fornece um título identificando a atividade atual. As imagens são carregadas de uma fonte externa (Unsplash) e estão contidas em um contêiner div com a classe "imagens."
 
 ## Tecnologias Utilizadas
 
@@ -37,7 +37,7 @@ Para utilizar o projeto localmente, siga estas etapas:
 
    bash
    git clone https://github.com/LucelhoSilva/Usabilidade.git
-   cd atividade_3
+   cd atividade_1
 
 3. Vá ate a pasta lib e execute o main.dart
 
