@@ -14,7 +14,7 @@
 
 ## Descrição do Projeto
 
-O código que você forneceu é um aplicativo Flutter de exemplo que cria uma tela com um contador.
+O código que é um aplicativo Flutter de exemplo que cria uma tela com um contador.
 
 ## Tecnologias Utilizadas
 
