@@ -1,14 +1,49 @@
 <!DOCTYPE html>
-<html lang="pr-br">
+<html lang="pt-br">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../header/header.css">
-    <link rel="stylesheet" href="./assets/CSS/style.css">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../header/header.css" />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+    <title>Calculadora</title>
   </head>
 
-  <body>
-    
+  <body class="fundo1">
+    <header class="cabecalho">
+      <ul>
+        <li class="active"><a href="../atividade_1/index.html">1</a></li>
+        <li><a href="../atividade_2/index.html">2</a></li>
+        <li><a href="../atividade_3/index.html">3</a></li>
+        <li><a href="../atividade_4/index.html">4</a></li>
+        <li><a href="../atividade_5/index.html">5</a></li>
+      </ul>
+    </header>
+
+    <h2>Atividade 1</h2>
+
+    <div id="fundo5">
+      <div id="fundo">
+        <div><h1 id="h1-">Calculadora de Troco</h1></div>
+
+        <label for="valorPago"> Valor Pago: </label>
+        <input type="text" id="valorPago" placeholder="Digite o valor pago" />
+
+        <label for="valorCompra"> Valor da Compra: </label>
+        <input type="text" id="valorCompra" placeholder="Digite o valor da compra" />
+
+        <button onclick="calcularTroco()">Calcular Troco</button>
+
+        <div id="resultado" class="escondido"></div>
+      </div>
+    </div>
+    <script src="./assets/script.js"></script>
   </body>
+
+  <footer>
+    <h2>What is Lorem Ipsum?</h2>
+    <p>
+      There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look
+      even slightly believable. If you are going to use a passage of Lorem Ipsum
+    </p>
+  </footer>
 </html>
