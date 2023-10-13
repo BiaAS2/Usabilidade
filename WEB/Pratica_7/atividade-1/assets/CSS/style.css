@@ -1,28 +1,170 @@
-function calcularTroco() {
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+
+  text-align: center;
+  background-image:url("/WEB/Pratica_8/atividade_1/assets/IMG/ao.jpg");
+
+}
+.fundo1 {
+ /* nao consigo colocar imagem no fundo */
   
-  var valorPago = parseFloat(document.getElementById('valorPago').value);
-  var valorCompra = parseFloat(document.getElementById('valorCompra').value);
-
-  if (isNaN(valorPago) || isNaN(valorCompra)) {
-    alert('Por favor, insira valores numéricos válidos.');
-    return;
-  }
-
-  if (valorPago < valorCompra) {
-    document.getElementById('resultado').innerHTML = 'A quantia paga é insuficiente para realizar a compra!';
-    return;
-  }
-
-  var troco = valorPago - valorCompra;
-  document.getElementById('resultado').innerHTML = 'Troco: R$ ' + troco.toFixed(2) + '<br>';
-
-  var notas = [50, 20, 10, 5, 2, 1];
-  for (var i = 0; i < notas.length; i++) {
-    var quantidadeNotas = Math.floor(troco / notas[i]);
-    troco %= notas[i];
-    document.getElementById('resultado').innerHTML += 'Notas de R$ ' + notas[i].toFixed(2) + ': ' + quantidadeNotas + '<br>';
-  }
-   document.getElementById('resultado').classList.remove('escondido');  //<- para agagar , nao mostrar o resultado. vai removar depois result
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
+label {
+  display: block;
+  margin: 10px 0;
+  color: #333;
+}
+
+input {
+  padding: 8px;
+  font-size: 30px;
+  width: 200px;
+  box-sizing: border-box;
+  box-shadow: 0 0 0px 1px #b8b4a9;
+  padding: 5px;
+}
+input:hover {
+  background-color: #cecece;
+  box-shadow: 0 0 0px 1px rgb(255, 124, 2)
+}
+
+
+button {
+  padding: 10px 8px;
+  width: 150px;
+  height: 65px;
+  font-size: 20px;
+  background-color: #CDA232;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 20px;
+
+  
+}
+
+button:hover {
+  background-color: #ffb700;
+  box-shadow: 0 0 0px 1px rgb(255, 255, 255)
+
+}
+
+h1 {
+  color: #333;
+  margin: -120px;
+  margin-left: 165px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  animation: animarH1 infinite 5s;
+  position: absolute; 
+   
+}
+@keyframes animarH1 {
+  0% {
+    transform: scale(1);
+    
+  }
+  50% {
+    transform: scale(1.2);
+  
+  }
+  100% {
+    transform: scale(1);
+    
+  }
+}
+
+#fundo {
+  background: #fcde91;
+  margin: auto;
+  padding: 10px;
+  width: 800px;
+  height: 400px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 15px 0px black;
+  animation: animarfundo infinite 5s;
+  border-radius: 10px 10px 10px 10px;
+}
+#fundo5 {
+  background: #fcde91;
+  margin: auto;
+  padding: 50px;
+  width: 800px;
+  height: 500px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px 50px 50px 50px;
+}
+
+@keyframes animarfundo {
+  0% {
+   
+    box-shadow: 0 0 5px 0px #CDA232
+  }
+  25% {
+   
+    box-shadow: 0 0 5px 0px #CDA232;
+  }
+  
+  50% {
+   
+    box-shadow: 0 0 15px 0px #CDA232;
+  }
+  100% {
+    
+    box-shadow: 0 0 20px 0px #70581a;
+  }
+  50% {
+   
+    box-shadow: 0 0 10px 0px #a17f29;
+  }
+  25% {
+   
+    box-shadow: 0 0 5px 0px #70581b;
+  }
+ 
+  0% {
+   
+    box-shadow: 0 0 5px 0px #70581b;
+  }
+ 
+}
+
+#resultado {
+  
+  font-size: 18px;
+  color: #333;
+  padding: 15px;
+  margin: auto;
+  border: 1px solid #ffb700; 
+  
+}
+.escondido {
+  display: none; 
+}
+h2{
+  padding:15px;
+  margin: 35px;
+}
+footer {
+  margin: auto;
+  padding: auto;
+  background:#CDA232;
+  color: cornsilk;
+ padding-bottom: 75px;
+ /* background-repeat: no-repeat;
+  background-image:url('WEB/Pratica_8/atividade_1/assets/IMG/halftone_background_12.jpg'); */
+}
 
