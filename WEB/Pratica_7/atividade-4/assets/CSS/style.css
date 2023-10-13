@@ -1,0 +1,162 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background:url("../assets/IMG/ao.jpg"); /* imagem nao funciona  */
+  background-size: cover;
+  background-position: center;
+
+
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+input,
+button {
+  padding: 12px;
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #333;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+#resultado:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  display: block;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+input,
+button {
+  padding: 12px;
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #333;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+#resultado:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+
+}
+
+.texto {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  margin: 50px;
+  background: rgba(172, 3, 3, 0.829);
+  border-radius: 1px 1pxs;
+}
+
+h1 {
+  padding-left: 80px;
+  padding: -100px;
+  justify-content: center;
+  animation: animarH1 infinite 5s;
+  
+
+}
+
+@keyframes animarH1 {
+  0% {
+    transform: scale(1);
+
+  }
+
+  50% {
+    transform: scale(1.2);
+
+  }
+
+  100% {
+    transform: scale(1);
+
+  }
+}
+
+.fundoLabel {
+
+  align-items: centers;
+
+}
