@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    
+    margin: auto;
+}
+
+#app {
+   margin: 40px;
+    justify-content: center;
+    padding: 50px;
+    background: rgb(146, 3, 3);
+    text-align: center;
+    border-radius: 2px 2px 2px 2px solid black;
+    box-shadow: 0 0 15px 1px black;
+    display: block;
+}
+
+input, button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
