@@ -9,10 +9,12 @@ body {
 }
 
 #app {
+  
   background: rgb(46, 6, 155);
   padding: 40px;
   margin: 50px;
   text-align: center; 
+  box-shadow: 0 0 13px 2px black;
 }
 
 h1 {
