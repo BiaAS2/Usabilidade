@@ -1,14 +1,31 @@
 <!DOCTYPE html>
-<html lang="pr-br">
+<html lang="pt-br">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../header/header.css">
-    <link rel="stylesheet" href="./assets/CSS/style.css">
-    <title>Document</title>
-  </head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../header/header.css" />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+</head>
+<body class="fundo1">
+    <header class="cabecalho">
+      <ul>
+        <li class="active"><a href="../atividade_1/index.html">1</a></li>
+        <li><a href="../atividade_2/index.html">2</a></li>
+        <li><a href="../atividade_3/index.html">3</a></li>
+        <li><a href="../atividade_4/index.html">4</a></li>
+        <li><a href="../atividade_5/index.html">5</a></li>
+      </ul>
+    </header>
 
-  <body>
-    
-  </body>
+
+    <div id="app">
+        <h1>Calculadora de Função</h1>
+        <label for="inputNumber">Digite um número:</label>
+        <input type="number" id="inputNumber">
+        <button onclick="calcular()">Calcular</button>
+        <p id="resultado"></p>
+    </div>
+
+    <script src="script.jss"></script>
+</body>
 </html>
