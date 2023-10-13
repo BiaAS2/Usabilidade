@@ -1,28 +1,39 @@
+const valorPagoInput = document.getElementById("valorPago");
+const valorCompraInput = document.getElementById("valorCompra");
+const resultadoDiv = document.getElementById("resultado");
+
 function calcularTroco() {
-  
-  var valorPago = parseFloat(document.getElementById('valorPago').value);
-  var valorCompra = parseFloat(document.getElementById('valorCompra').value);
+  const valorPago = parseFloat(valorPagoInput.value);
+  const valorCompra = parseFloat(valorCompraInput.value);
 
   if (isNaN(valorPago) || isNaN(valorCompra)) {
-    alert('Por favor, insira valores numéricos válidos.');
+    resultadoDiv.innerHTML = "Por favor, digite valores válidos.";
+    resultadoDiv.classList.add("erro");
+    resultadoDiv.classList.remove("escondido");
     return;
   }
 
-  if (valorPago < valorCompra) {
-    document.getElementById('resultado').innerHTML = 'A quantia paga é insuficiente para realizar a compra!';
+  let troco = valorPago - valorCompra;
+
+  if (troco < 0) {
+    resultadoDiv.innerHTML = "Quantia paga é insuficiente para realizar a compra.";
+    resultadoDiv.classList.add("erro");
+    resultadoDiv.classList.remove("escondido");
     return;
   }
 
-  var troco = valorPago - valorCompra;
-  document.getElementById('resultado').innerHTML = 'Troco: R$ ' + troco.toFixed(2) + '<br>';
+  const notasDisponiveis = [50, 20, 10, 5, 2, 1];
+  let resultadoHTML = "Troco:<br>";
 
-  var notas = [50, 20, 10, 5, 2, 1];
-  for (var i = 0; i < notas.length; i++) {
-    var quantidadeNotas = Math.floor(troco / notas[i]);
-    troco %= notas[i];
-    document.getElementById('resultado').innerHTML += 'Notas de R$ ' + notas[i].toFixed(2) + ': ' + quantidadeNotas + '<br>';
-  }
-   document.getElementById('resultado').classList.remove('escondido');  //<- para agagar , nao mostrar o resultado. vai removar depois result
+  notasDisponiveis.forEach((nota) => {
+    const quantidadeNotas = Math.floor(troco / nota);
+    if (quantidadeNotas > 0) {
+      resultadoHTML += `${quantidadeNotas} nota(s) de R$${nota},00<br>`;
+      troco %= nota;
+    }
+  });
+
+  resultadoDiv.innerHTML = resultadoHTML;
+  resultadoDiv.classList.remove("erro");
+  resultadoDiv.classList.remove("escondido");
 }
-
-
