@@ -1,28 +1,24 @@
 function calcular() {
-    
-    var inputNumber = document.getElementById('inputNumber').value;
+  var inputNumber = parseFloat(document.getElementById('inputNumber').value);
+  var resultadoElement = document.getElementById('resultado');
 
-    
-    if (inputNumber === "" || isNaN(inputNumber)) {
-        alert("Por favor, insira um número válido.");
-        return;
-    }
+  if (isNaN(inputNumber)) {
+    resultadoElement.innerText = "Por favor, insira um número válido.";
+    resultadoElement.style.color = "#e74c3c"; // Cor vermelha para indicar erro
+    return;
+  }
 
-   
-    var resultado = f(parseFloat(inputNumber));
-    document.getElementById('resultado').innerText = "Resultado: " + resultado;
+  var resultado = calcularFuncao(inputNumber);
+  resultadoElement.innerText = "Resultado: " + resultado;
+  resultadoElement.style.color = "#333"; // Cor padrão para o resultado
 }
 
-function f(x) {
-    if (x < -2) {
-        return 2 * x + 2;
-    } else if (x < 3) {
-        return 3;
-    } else {
-        return 0;
-
-    }
-    var resultado = f(parseFloat(inputNumber));
-    document.getElementById('resultado').innerText = "Resultado: " + resultado;
+function calcularFuncao(x) {
+  if (x < -2) {
+    return 2 * x + 2;
+  } else if (x < 3) {
+    return 3;
+  } else {
+    return -x;
+  }
 }
-
