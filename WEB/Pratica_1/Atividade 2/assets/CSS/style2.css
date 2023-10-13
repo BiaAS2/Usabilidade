@@ -80,21 +80,20 @@ padding: 30px;
 
 .bloco1>.title>h3{
 width: auto;
-font-size: 50px;
+font-size: 35px;
 font-weight: lighter;
 line-height: 90px;
 letter-spacing: 10px;
 overflow:hidden;
 }
 .uc{
-font-size: 120px;
+font-size: 75px;
 color: rgba(245, 181, 255, 1);
 font-weight: bold;
-
 }
 .bloco1>.descrição{
 font-size: 30px;
-padding-top: 180px;
+padding-top: 18px;
 width: 50vh;
 line-height: 35px;
 }
@@ -134,9 +133,8 @@ flex-direction: row;
 margin-left: auto;
 margin-right: 50px;
 list-style-type: square;
-font-size: 24px;
-
 }
+
 .title3{
 font-size: 40px;
 font-family: 'Manrope', sans-serif;
@@ -144,7 +142,7 @@ padding-right: 30px;
 text-align: left;
 }
 .text2{
-font-size: 30px;
+font-size: 25px;
 }
 .pag3{
 display: flex;
