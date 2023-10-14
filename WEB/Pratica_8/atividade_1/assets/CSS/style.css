@@ -1,10 +1,10 @@
-ody {
+body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 20px;
 
   text-align: center;
   background-image:url(/WEB/Pratica_8/atividade_1/assets/IMG/ao.jpg);
-
+   
 }
 .fundo1 {
   background-image:url('/WEB/Pratica_8/atividade_1/assets/IMG/ao.jpg'); /* nao consigo colocar imagem no fundo */
@@ -12,15 +12,25 @@ ody {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background: #8400ff;
+  margin: auto;
 }
-
+.fundo5 {
+  background-color: #f0f0f0;
+  background: #8400ff;;
+  display: block;
+}
+h2 {
+  color: wheat;
+}
 label {
   display: block;
   margin: 10px 0;
-  color: #333;
+  color: #ffffff;
 }
 
 input {
+ 
   padding: 8px;
   font-size: 30px;
   width: 200px;
@@ -39,7 +49,7 @@ button {
   width: 150px;
   height: 65px;
   font-size: 20px;
-  background-color: #CDA232;
+  background-color: #ae00ff;
   color: white;
   border: none;
   cursor: pointer;
@@ -56,7 +66,7 @@ button:hover {
 }
 
 h1 {
-  color: #333;
+  color: rgb(255, 255, 255);
   margin: -120px;
   margin-left: 165px;
   align-items: center;
@@ -82,7 +92,7 @@ h1 {
 }
 
 #fundo {
-  background: #fcde91;
+  background:#3700ff;
   margin: auto;
   padding: 10px;
   width: 800px;
@@ -96,7 +106,7 @@ h1 {
   border-radius: 10px 10px 10px 10px;
 }
 #fundo5 {
-  background: #fcde91;
+  background: #2a01bb;
   margin: auto;
   padding: 50px;
   width: 800px;

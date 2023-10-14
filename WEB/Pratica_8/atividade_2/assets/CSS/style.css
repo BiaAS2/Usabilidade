@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .fundo1 {
+    background-color: #f0f0f0;
+    background: #8400ff;;
+  }
+  .fundo5 {
+    background-color: #f0f0f0;
+    background: #8400ff;;
+  }
+  #app {
+    
+    background:#4400ff;
+    padding: 40px;
+    margin: 50px;
+    text-align: center; 
+    box-shadow: 0 0 13px 2px black;
+  }
+  h1 {
+    color: #000000; 
+    animation: animarH1 infinite 5s;
+   padding: 20px;
+   margin: 20px;
+  
+  }
+  h2 {
+    color: #ffffff; 
+  
+   padding: 10px;
+   margin: 20px;
+  
+  }
+  @keyframes animarH1 {
+    0% {
+      transform: scale(1);
+      
+    }
+    50% {
+      transform: scale(1.2);
+    
+    }
+    100% {
+      transform: scale(1);
+      
+    }
+  }
+  .codigo-label{
+    padding: 2px;
+  }
+  
+  label {
+    font-size: 1.2em;
+    margin-bottom: 4px;
+    display: block; 
+    color: #fff; 
+   
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 1em;
+    width: 20%;
+    box-sizing: border-box;
+    margin: 0 auto; 
+    margin-bottom: 15px;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    font-size: 35px;
+    color: #ff0040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
