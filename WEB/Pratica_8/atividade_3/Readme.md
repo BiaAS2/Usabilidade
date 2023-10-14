@@ -1,4 +1,4 @@
-<h1 align="center"> Atividade 1 </h1>
+<h1 align="center"> Atividade 3 </h1>
 
 <p align="center">
   <a href="#descrição-do-projeto">Descrição do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -14,15 +14,15 @@
 
 ## Descrição do Projeto
 
-Este código HTML é a estrutura básica de uma página da web que parece ser dedicada a explorar as áreas de "Arte e Design"
+O código HTML cria uma página da web para uma aplicação de encontrar o maior número em uma lista de números separados por espaços. Os usuários podem inserir a lista de números, clicar no botão "Encontrar Maior Número", e o maior número será exibido na página.
 
 ## Tecnologias Utilizadas
 
-- *Linguagens:* Dart
-- *Framework* Flutter
-- *Controle de Versão:* Git
-- *IDE:* Visual Studio Code
-- *Hospedagem do Código:* GitHub
+- _Linguagens:_ Dart
+- _Framework_ Flutter
+- _Controle de Versão:_ Git
+- _IDE:_ Visual Studio Code
+- _Hospedagem do Código:_ GitHub
 
 ## Como Utilizar
 
@@ -37,8 +37,7 @@ Para utilizar o projeto localmente, siga estas etapas:
 
    bash
    git clone https://github.com/LucelhoSilva/Usabilidade.git
-   cd atividade_1
-   
+   cd atividade_3
 
 3. Vá ate a pasta lib e execute o main.dart
 
