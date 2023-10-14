@@ -1,0 +1,72 @@
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 20px auto;
+  vertical-align: top;
+  opacity: 0; /* Inicialmente oculto */
+  height: 0; /* Inicialmente oculto */
+  overflow: hidden;
+  transition: opacity 0.5s, height 0.5s;
+}
+
+th,
+td {
+  border: 1px solid black;
+  /* text-align: center; */
+  padding: 10px;
+  height: 6rem;
+  vertical-align: top;
+}
+
+thead {
+  background-color: #244180;
+  color: #ffffff;
+}
+
+tbody tr:hover {
+  background-color: #ffffff !important;
+  color: #ff4500;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #8b9dc3;
+}
+tbody tr:nth-child(odd) {
+  background-color: #dfe3ee;
+}
+
+tfoot {
+  background-color: #ff4500;
+  color: #fff;
+}
+tfoot tr td {
+  vertical-align: baseline !important;
+}
+
+.visible {
+  opacity: 1; /* Exibe o elemento */
+  height: auto; /* Define a altura de volta ao valor automático */
+}
+
+.right {
+  right: 40% !important;
+  bottom: -10% !important;
+}
+
+.btn {
+  position: absolute;
+  background: rgba(0, 0, 255, 0.8);
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  color: rgba(255, 255, 255, 0.8);
+
+  bottom: 10%;
+  right: 43%;
+
+  cursor: pointer;
+
+  transition: right 0.7s, bottom 0.7s;
+}
