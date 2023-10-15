@@ -14,7 +14,7 @@
 
 ## Descrição do Projeto
 
-Esta página HTML serve como a página de destino da "Atividade 2." Ela inclui navegação para outras atividades por meio de links no cabeçalho e fornece um título identificando a atividade atual.
+o código HTML cria uma página da web para uma aplicação de registro e cálculo de notas de alunos. Os usuários podem inserir nomes de alunos, suas notas e faltas, e o cálculo da nota total e da média da turma é realizado automaticamente com base nos dados inseridos.
 
 ## Tecnologias Utilizadas
 
