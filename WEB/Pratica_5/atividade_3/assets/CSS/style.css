@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  display: block;
+}
+
+  .fundo1 {
+   
+    background-color: #dddada;
+  }
+ 
+  h2 {
+    color: #000000; 
+  
+   padding: 10px;
+   margin: 20px;
+  
+  }
+  form {
+    background:  rgb(221, 221, 221);
+    width: 600px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    border: 8px solid black;
+}
+
+label {
+  
+  padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+  
+}
+
+input, select {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 15px;
+   
+}
+.fundo-check{
+
+  display: flex;
+  justify-content: left;
+  padding: 15px;
+  margin: 25px;
+}
+.op{
+  color: aquamarine;
+  background: red;
+}
+
+button {
+    padding: 10px;
+    background-color:  #b9b9b9;
+    margin: 15px;
+    
+}
+.button-baixo{
+
+  display: flex;
+  text-align: center;
+   padding: 22px;
+   
+
+}
+
+button.clear {
+  background-color:  #b9b9b9;
+}
+  

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../header/header.css" />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+    <title>LOGIN</title>
+  </head>
+
+  <body class="fundo1">
+    <header class="cabecalho">
+      <ul>
+        <li><a href="../atividade_1/index.html">1</a></li>
+        <li ><a href="../atividade_2/login.html">2</a></li>
+        <li class="active"><a href="../atividade_3/index.html">3</a></li>
+     
+        
+      </ul>
+    </header>
+    <body class="fundo1">
+      <h2>Atividade 3</h2>
+      <form>
+        <label for="login">Login:</label>
+        <input type="text" id="login" name="login" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="dob">Data de Nascimento:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirmPassword">Confirmar Senha:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+        <label for="gender">Sexo:</label>
+        <select id="gender" name="gender" required>
+            <option value="M">Masculino</option>
+            <option value="F">Feminino</option>
+        </select>
+
+        <label for="city">Cidade:</label>
+        <input type="text" id="city" name="city" required>
+
+        <label for="homepage">Página Inicial:</label>
+        <input type="url" id="homepage" name="homepage" required>
+        <div class = fundo-check>
+        <label>Interesses:</label>
+       
+        <div >
+            <input type="checkbox" id="music" name="interests" value="musica">
+            <label for="music">Música</label>
+        </div>
+
+        <div >
+            <input type="checkbox" id="sports" name="interests" value="esporte">
+            <label for="sports">Esporte</label>
+        </div>
+
+        <div >
+            <input type="checkbox" id="fashion" name="interests" value="moda">
+            <label for="fashion">Moda</label>
+        </div>
+        </div>       
+        <div class = button-baixo >
+        <button type="reset" class="clear">Limpar </button>
+        <button type="submit"> Cadastrar</button>
+        </div>
+    </form>
+
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
