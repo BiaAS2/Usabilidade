@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+  
+  
+     
+  }
+  .praticaAtual {
+    font-size: 2rem;
+    padding-right: 1rem;
+    color: var(--header-text-color);
+  }
+  .fundo1 {
+    
+    background: linear-gradient(to right, #5644C5, #171047);
+    margin: auto;
+  }
+  .fundo5 {
+    background-color: #f0f0f0;
+    display: block;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #8A88FF;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #180353;
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+  h2{
+    display: flex;
+    justify-content: start;
+    color: #f4f4f4;
+    font-size: 30px;
+    padding: 30px;
+  }
+  
+
+  #fundo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(to bottom, #8A88FF, #4947B0);
+    padding: 10px;
+    align-items: center;
+    margin: 50px;
+    width: 500px;
+    height: 500px;
+    text-align: center; 
+    box-shadow: 0 0 5px 1px rgb(255, 255, 255);
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    
+    border-radius: 30px;
+  }
+
+  #resultList{
+    padding: 25px;
+  }
+  

@@ -1,81 +1,29 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f4f4f4;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
   height: 100vh;
   margin: 0;
-  background:url("../assets/IMG/ao.jpg"); /* imagem nao funciona  */
-  background-size: cover;
-  background-position: center;
+  
+  background: linear-gradient(to right, #5644C5, #171047);
 
 
 }
-
-h1 {
-  color: #333;
-  margin-bottom: 20px;
+.praticaAtual {
+  font-size: 2rem;
+  padding-right: 1rem;
+  color: var(--header-text-color);
 }
 
-label {
-  font-size: 1.2em;
-  margin-bottom: 8px;
-  color: #555;
-}
-
-input,
-button {
-  padding: 12px;
-  font-size: 1em;
-  margin-bottom: 15px;
-}
-
-button {
-  background-color: #4caf50;
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #45a049;
-}
-
-#resultado {
-  margin-top: 20px;
-  font-size: 1.2em;
-  color: #333;
-  padding: 10px;
-  border: 1px solid #ccc;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease;
-}
-
-#resultado:hover {
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-}
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f4f4f4;
+h2 {
+  
+  color: #ffffff; 
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin: 0;
-  display: block;
-}
+  flex-direction: start;
+  padding: 25px;
 
-h1 {
-  color: #333;
-  margin-bottom: 20px;
-}
 
+}
 label {
   font-size: 1.2em;
   margin-bottom: 8px;
@@ -90,14 +38,15 @@ button {
 }
 
 button {
-  background-color: #4caf50;
+  background-color: #8A88FF;
   color: white;
   cursor: pointer;
+  border-radius: 7px;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: #28038d;
 }
 
 #resultado {
@@ -121,12 +70,16 @@ button:hover {
 }
 
 .texto {
-  display: flex;
-  justify-content: center;
-  padding: 50px;
-  margin: 50px;
-  background: rgba(172, 3, 3, 0.829);
-  border-radius: 1px 1pxs;
+ 
+    background: linear-gradient(to bottom, #8A88FF, #4947B0);
+    padding: 40px;
+    margin: 100px;
+    text-align: center; 
+    
+    box-shadow: 0 0 5px 1px rgb(255, 255, 255);
+    width: 800px;
+    transform: translate(50%, -10%)
+  
 }
 
 h1 {

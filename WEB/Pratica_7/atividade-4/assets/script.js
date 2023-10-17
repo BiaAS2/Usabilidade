@@ -27,4 +27,3 @@ function obterPreco(codigo) {
             return { nome: "", preco: 0 };
     }
 }
-s

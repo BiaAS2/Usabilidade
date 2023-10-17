@@ -9,23 +9,29 @@ body {
 
   .fundo1 {
    
-    background-color: #dddada;
+    background: linear-gradient(to right, #5644C5, #171047);
   }
  
   h2 {
-    color: #000000; 
-  
-   padding: 10px;
-   margin: 20px;
-  
+    display: flex;
+    justify-content: start;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    padding: 30px;
   }
+  .praticaAtual {
+    font-size: 2rem;
+    padding-right: 1rem;
+    color: var(--header-text-color);
+  }  
   form {
-    background:  rgb(221, 221, 221);
+    background: linear-gradient(to bottom, #8A88FF, #4947B0);
     width: 600px;
     height: auto;
     text-align: center;
     margin: auto;
-    border: 8px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 8px 1px white;
 }
 
 label {
@@ -49,15 +55,13 @@ input, select {
   padding: 15px;
   margin: 25px;
 }
-.op{
-  color: aquamarine;
-  background: red;
-}
+
 
 button {
     padding: 10px;
-    background-color:  #b9b9b9;
+    background-color:  #8A88FF;
     margin: 15px;
+    border-radius: 7px;
     
 }
 .button-baixo{
@@ -70,6 +74,6 @@ button {
 }
 
 button.clear {
-  background-color:  #b9b9b9;
+  background-color:  #8A88FF;
 }
   

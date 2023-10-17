@@ -5,28 +5,53 @@ body {
   justify-content: center;
   height: 100vh;
   margin: 0;
-  background-color: #f0f0f0; 
+  
+  background: linear-gradient(to right, #5644C5, #171047);
   display: block;
 }
+.praticaAtual {
+  font-size: 2rem;
+  padding-right: 1rem;
+  color: var(--header-text-color);
+}
+
 
 #app {
-  margin: 40px;
-  padding: 50px;
-  background-color: rgb(146, 3, 3);
-  text-align: center;
-  border-radius: 5px; 
-  box-shadow: 0px 0px 20px 2px rgba(58, 19, 19, 0.3); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(to bottom, #8A88FF, #4947B0);
+  padding: 10px;
+  align-items: center;
+  margin: 50px;
+  width: 500px;
+  height: 500px;
+  text-align: center; 
+  box-shadow: 0 0 5px 1px rgb(255, 255, 255);
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  
+  border-radius: 30px;
 }
-h1{
-  margin: 10px;
+h2 {
+  
+  color: #ffffff; 
+  display: flex;
+  flex-direction: start;
+  padding: 25px;
+
+
 }
 
+
 input, button {
-  background-color: #6af872;
+ 
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
   font-size: 1em;
+  background: 8A88FF;
   border: none;
   border-radius: 3px; 
 }
@@ -35,14 +60,14 @@ button {
   padding: auto;
   padding-left: 10px;
   margin: 10px;
-  background-color: #4caf50;
+  background-color: #8A88FF;
   color: #fff;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #005204;
+  background-color: #130475;
 }
 #resultado{
   font-family: 'Courier New', Courier, monospace;

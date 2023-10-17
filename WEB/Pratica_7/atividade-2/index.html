@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../header/header.css" />
@@ -8,16 +8,30 @@
 </head>
 <body class="fundo1">
     <header class="cabecalho">
-      <ul>
-        <li><a href="../atividade-1/index.html">1</a></li>
-        <li class="active"><a href="../atividade-2/index.html">2</a></li>
-        <li><a href="../atividade-3/index.html">3</a></li>
-        <li><a href="../atividade-4/index.html">4</a></li>
-        <li><a href="../atividade-5/index.html">5</a></li>
-      </ul>
+        <ul>
+            <li><a href="../atividade-1/index.html">1</a></li>
+            <li class="active"><a href="../atividade-2/index.html">2</a></li>
+            <li><a href="../atividade-3/index.html">3</a></li>
+            <li><a href="../atividade-4/index.html">4</a></li>
+            <li><a href="../atividade-5/index.html">5</a></li>
+        </ul>
+        <div class="praticaAtual">ATIVIDADE 2</div>
     </header>
+    <h2>Calculadora de IMC</h2>
+    <div id="fundo">
+        
+        <label for="weight">Peso (kg): </label>
+        <input type="text" id="weight">
 
-    <h1> Gabriel vai fazer </h1>
-    <script src="script.jss"></script>
+        <label for="height">Altura (m): </label>
+        <input type="text" id="height">
+
+        <button onclick="calculateIMC()">Calcular IMC</button>
+
+        
+        <ul id="resultList"></ul>
+
+        <script src="assets/script.js"></script>
+    </div>
 </body>
 </html>

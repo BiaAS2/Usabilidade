@@ -2,26 +2,41 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
+  
 }
 
 .fundo1 {
-  background-color: #f0f0f0;
+  background: linear-gradient(to right, #5644C5, #171047);
+  display: block;
 }
+.praticaAtual {
+  font-size: 2rem;
+  padding-right: 1rem;
+  color: var(--header-text-color);
+}
+
 
 #app {
   
-  background: rgb(46, 6, 155);
+  
+  background: linear-gradient(to bottom, #8A88FF, #4947B0);
   padding: 40px;
-  margin: 50px;
+  margin: 100px;
   text-align: center; 
-  box-shadow: 0 0 13px 2px black;
+  
+  box-shadow: 0 0 5px 1px rgb(255, 255, 255);
+  width: 800px;
+  transform: translate(50%, -10%)
+ 
 }
 
-h1 {
-  color: #fff; 
-  animation: animarH1 infinite 5s;
- padding: 5px;
- margin: 20px;
+h2 {
+  
+  color: #ffffff; 
+  display: flex;
+  flex-direction: start;
+  padding: 25px;
+
 
 }
 @keyframes animarH1 {
@@ -62,7 +77,7 @@ input {
 button {
   padding: 15px 30px;
   font-size: 1.2em;
-  background-color: #4caf50;
+  background-color: #8A88FF;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -73,7 +88,7 @@ button {
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color:  #28038d;
 }
 
 #resultado {

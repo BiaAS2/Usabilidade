@@ -7,31 +7,37 @@ body {
   
   .fundo1 {
    
-    background-color: #fffafa;
+    background: linear-gradient(to right, #5644C5, #171047);
   }
  
-
   h2 {
-    color: #000000; 
+    display: flex;
+    justify-content: start;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    
+  }
   
-   padding: 10px;
-   margin: 20px;
-  
+  .praticaAtual {
+    font-size: 2rem;
+    padding-right: 1rem;
+    color: var(--header-text-color);
   }
 form {
-  
+  background: linear-gradient(to bottom, #8A88FF, #4947B0);
   max-width: 400px;
   margin: 150px;
   background-color: #fff;
   padding: 90px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+    box-shadow: 0 0 8px 1px white;
 }
 
 label {
   display: block;
   margin-bottom: 8px;
-  color: #555;
+  color: #a5a5a5;
 }
 
 input {
@@ -48,20 +54,26 @@ button {
   width: 100%;
   padding: 12px;
   font-size: 18px;
-  background-color: #007bff;
+  background-color: #8A88FF;
   color: #fff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  
 }
 
 button:hover {
   background-color: #0056b3;
 }
-
+p{
+  padding: 25px;
+  text-align: center;
+  color: #fff;
+}
 a {
-  color: #007bff;
+ text-align: center;
+  color: #006eff;
   text-decoration: none;
 }
 
@@ -84,7 +96,18 @@ a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .container-cur{
-  background: red;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, #8A88FF, #4947B0);
+  max-width: 500px;
+  margin: 150px;
+  background-color: #fff;
+  padding: 90px;
+  border-radius: 20px;
+  box-shadow: 0 0 8px 1px white;
+  margin-left: 700px;
+
+  
 }
 .curriculum {
   max-width: 600px;
@@ -93,6 +116,7 @@ a:hover {
 
 .curriculum ol {
   padding-left: 20px;
+ 
 }
 
   

@@ -2,38 +2,59 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    display: block;
+    text-align: center;
+    justify-content: center;
   }
   
   .fundo1 {
     background-color: #f0f0f0;
-    background: #8400ff;;
+    background: linear-gradient(to right, #5644C5, #171047);
+  }
+  .praticaAtual {
+    font-size: 2rem;
+    padding-right: 1rem;
+    color: var(--header-text-color);
   }
   .fundo5 {
     background-color: #f0f0f0;
-    background: #8400ff;;
+    background: linear-gradient(to right, #5644C5, #171047);
   }
   #app {
     
-    background:#4400ff;
-    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(to right, #8A88FF, #4947B0);
+    padding: 10px;
+    align-items: center;
     margin: 50px;
+    width: 500px;
+    height: 500px;
     text-align: center; 
-    box-shadow: 0 0 13px 2px black;
+    box-shadow: 0 0 5px 1px rgb(255, 255, 255);
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    
+    border-radius: 30px;
   }
+  
   h1 {
-    color: #000000; 
+    color: #3b3b3b; 
     animation: animarH1 infinite 5s;
    padding: 20px;
    margin: 20px;
   
   }
   h2 {
-    color: #ffffff; 
-  
-   padding: 10px;
-   margin: 20px;
-  
+    display: flex;
+    justify-content: start;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin: 20px;
   }
+  
   @keyframes animarH1 {
     0% {
       transform: scale(1);
@@ -63,7 +84,7 @@ body {
   input {
     padding: 10px;
     font-size: 1em;
-    width: 20%;
+    width: 40%;
     box-sizing: border-box;
     margin: 0 auto; 
     margin-bottom: 15px;
@@ -72,7 +93,7 @@ body {
   button {
     padding: 15px 30px;
     font-size: 1.2em;
-    background-color: #4caf50;
+    background: #8A88FF;;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -80,10 +101,11 @@ body {
     transition: background-color 0.3s ease;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 20px 2px #220141;
   }
   
   button:hover {
-    background-color: #45a049;
+    background-color: #130475;
   }
   
   #resultado {

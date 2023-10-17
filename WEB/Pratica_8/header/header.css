@@ -13,12 +13,12 @@
   height: 10vh;
   justify-content: space-between;
   align-items: center;
-  background-color: #8400ff;
+  background-color: #6464CB;
   padding: 1rem;
   color: #fff;
   list-style: none;
   box-shadow: 0 0 10px 1px black;
-  padding: 0;
+  padding: 0;  
 }
 
 .cabecalho ul {

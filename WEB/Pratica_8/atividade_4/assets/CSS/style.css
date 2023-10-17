@@ -2,33 +2,85 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background: #8400ff;
-  display: flexss;
+
+  display: block;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background: linear-gradient(to right, #5644C5, #171047);
+
+}
+.praticaAtual {
+  font-size: 2rem;
+  padding-right: 1rem;
+  color: var(--header-text-color);
+}
+h1 {
+  color: #3b3b3b;
+  animation: animarH1 infinite 5s;
+  padding: 20px;
+  margin: 20px;
 
 }
 
-
 h2 {
-  color: #ffffff;
-  padding: 10px;
+  display: flex;
+  justify-content: start;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
   margin: 20px;
 }
 
+.app {
+
+
+  background: linear-gradient(to right, #8A88FF, #4947B0);
+  padding: 10px;
+  align-items: center;
+  margin: 50px;
+  width: 500px;
+  height: auto;
+  text-align: center;
+  box-shadow: 0 0 5px 1px rgb(255, 255, 255);
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  padding: 100px;
+  border-radius: 30px;
+}
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: #fff;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 button {
-  margin-left: 550px;
-  padding: 20px 50px;
-  font-size: 1.2em;
-  background:#4400ff;
+  
+  margin: 20px;
+  padding: 50px;
+  font-size: 25px;
+  background: #8A88FF;
   box-shadow: 0 0 20px 2px #220141;
   color: #fff;
   border: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
+  
+  
 }
 
 button:hover {
   background-color: #130475;
+}
+.rem {
+  color: #ffff;
 }

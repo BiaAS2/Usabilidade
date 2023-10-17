@@ -1,25 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../header/header.css" />
-    <link rel="stylesheet" href="assets/CSS/style.css" />
-    <title>Equação de 2º Grau</title>
-  </head>
 
-  <body class="fundo1">
-    <header class="cabecalho">
-      <ul>
-        <li><a href="../atividade_1/index.html">1</a></li>
-        <li><a href="../atividade_2/index.html">2</a></li>
-        <li><a href="../atividade_3/index.html">3</a></li>
-        <li class="active"><a href="../atividade_4/index.html">4</a></li>
-      </ul>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../header/header.css" />
+  <link rel="stylesheet" href="assets/CSS/style.css" />
+  <title>Equação de 2º Grau</title>
+</head>
 
-    <h2>Atividade 4</h2>
-    <button onclick="iniciarResolucao()">Resolver Equação</button>
-    <script src="./assets/script.js"></script>
-  </body>
+<body class="fundo1">
+  <header class="cabecalho">
+    <ul>
+      <li><a href="../atividade_1/index.html">1</a></li>
+      <li><a href="../atividade_2/index.html">2</a></li>
+      <li><a href="../atividade_3/index.html">3</a></li>
+      <li class="active"><a href="../atividade_4/index.html">4</a></li>
+    </ul>
+    <div class="praticaAtual">ATIVIDADE 4</div>
+  </header>
+
+  <h2>Equação de segundo grau</h2>
+  <div class="app">
+    <label for="inputA">Digite o valor de a:</label>
+    <input type="text" id="inputA">
+
+    <label for="inputB">Digite o valor de b:</label>
+    <input type="text" id="inputB">
+
+    <label for="inputC">Digite o valor de c:</label>
+    <input type="text" id="inputC">
+
+    <button onclick="resolverEquacao()">Resolver Equação</button>
+
+    <div id="reminder"></div>
+    <div id="results"></div>
+  </div>
+  <script src="./assets/script.js"></script>
+</body>
+
 </html>

@@ -2,27 +2,28 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 20px;
 
-  text-align: center;
-  background-image:url(/WEB/Pratica_8/atividade_1/assets/IMG/ao.jpg);
-   
+
+
 }
+
+.praticaAtual {
+  font-size: 2rem;
+  padding-right: 1rem;
+  color: var(--header-text-color);
+}
+
 .fundo1 {
-  background-image:url('/WEB/Pratica_8/atividade_1/assets/IMG/ao.jpg'); /* nao consigo colocar imagem no fundo */
-  
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background: #8400ff;
+
+  background: linear-gradient(to right, #5644C5, #171047);
   margin: auto;
 }
+
 .fundo5 {
   background-color: #f0f0f0;
-  background: #8400ff;;
+
   display: block;
 }
-h2 {
-  color: wheat;
-}
+
 label {
   display: block;
   margin: 10px 0;
@@ -30,7 +31,7 @@ label {
 }
 
 input {
- 
+
   padding: 8px;
   font-size: 30px;
   width: 200px;
@@ -38,6 +39,7 @@ input {
   box-shadow: 0 0 0px 1px #b8b4a9;
   padding: 5px;
 }
+
 input:hover {
   background-color: #cecece;
   box-shadow: 0 0 0px 1px rgb(255, 124, 2)
@@ -49,132 +51,127 @@ button {
   width: 150px;
   height: 65px;
   font-size: 20px;
-  background-color: #ae00ff;
+  background: #8A88FF;
   color: white;
   border: none;
   cursor: pointer;
   border-radius: 10px;
   margin: 20px;
+  box-shadow: 0 0 20px 2px #220141;
 
-  
+
 }
 
 button:hover {
-  background-color: #ffb700;
+  background-color: #130475;
   box-shadow: 0 0 0px 1px rgb(255, 255, 255)
-
 }
+
+h2 {
+  display: flex;
+  justify-content: start;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+
 
 h1 {
-  color: rgb(255, 255, 255);
-  margin: -120px;
-  margin-left: 165px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
+  color: #3b3b3b;
   animation: animarH1 infinite 5s;
-  position: absolute; 
-   
+  padding: 20px;
+  margin: 20px;
+
 }
+
 @keyframes animarH1 {
   0% {
     transform: scale(1);
-    
+
   }
+
   50% {
     transform: scale(1.2);
-  
+
   }
+
   100% {
     transform: scale(1);
-    
+
   }
 }
 
 #fundo {
-  background:#3700ff;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(to right, #8A88FF, #4947B0);
   padding: 10px;
-  width: 800px;
-  height: 400px;
-  display: flex;
-  text-align: center;
-  justify-content: center;
   align-items: center;
-  box-shadow: 0 0 15px 0px black;
-  animation: animarfundo infinite 5s;
-  border-radius: 10px 10px 10px 10px;
-}
-#fundo5 {
-  background: #2a01bb;
-  margin: auto;
-  padding: 50px;
-  width: 800px;
+  margin: 50px;
+  width: 500px;
   height: 500px;
-  display: flex;
   text-align: center;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px 50px 50px 50px;
+  box-shadow: 0 0 5px 1px rgb(255, 255, 255);
+  position: absolute;
+  top: 20%;
+  left: 35%;
+
+  border-radius: 30px;
 }
 
 @keyframes animarfundo {
   0% {
-   
+
     box-shadow: 0 0 5px 0px #CDA232
   }
+
   25% {
-   
+
     box-shadow: 0 0 5px 0px #CDA232;
   }
-  
+
   50% {
-   
+
     box-shadow: 0 0 15px 0px #CDA232;
   }
+
   100% {
-    
+
     box-shadow: 0 0 20px 0px #70581a;
   }
+
   50% {
-   
+
     box-shadow: 0 0 10px 0px #a17f29;
   }
+
   25% {
-   
+
     box-shadow: 0 0 5px 0px #70581b;
   }
- 
+
   0% {
-   
+
     box-shadow: 0 0 5px 0px #70581b;
   }
- 
+
 }
 
 #resultado {
-  
+
   font-size: 18px;
   color: #333;
   padding: 15px;
   margin: auto;
-  border: 1px solid #ffb700; 
-  
-}
-.escondido {
-  display: none; 
-}
-h2{
-  padding:15px;
-  margin: 35px;
-}
-footer {
-  margin: auto;
-  padding: auto;
-  background:#CDA232;
-  color: cornsilk;
- padding-bottom: 75px;
- /* background-repeat: no-repeat;
-  background-image:url('WEB/Pratica_8/atividade_1/assets/IMG/halftone_background_12.jpg'); */
+  border: 1px solid #ffb700;
+
 }
 
+.escondido {
+  display: none;
+}
+
+h2 {
+  padding: 15px;
+  margin: 35px;
+}
