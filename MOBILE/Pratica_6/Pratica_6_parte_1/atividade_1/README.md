@@ -14,15 +14,15 @@
 
 ## Descrição do Projeto
 
-O código que é um exemplo de um aplicativo Flutter que cria uma tela simples com um contador.
+O código implementa um aplicativo Flutter simples com duas telas, onde o usuário pode inserir dois números na segunda tela e calcular a soma, e o resultado é exibido na primeira tela quando o usuário retorna.
 
 ## Tecnologias Utilizadas
 
-- *Linguagens:* Dart
-- *Framework* Flutter
-- *Controle de Versão:* Git
-- *IDE:* Visual Studio Code
-- *Hospedagem do Código:* GitHub
+- _Linguagens:_ Dart
+- _Framework_ Flutter
+- _Controle de Versão:_ Git
+- _IDE:_ Visual Studio Code
+- _Hospedagem do Código:_ GitHub
 
 ## Como Utilizar
 
@@ -38,7 +38,6 @@ Para utilizar o projeto localmente, siga estas etapas:
    bash
    git clone https://github.com/LucelhoSilva/Usabilidade.git
    cd atividade_1
-   
 
 3. Vá ate a pasta lib e execute o main.dart
 

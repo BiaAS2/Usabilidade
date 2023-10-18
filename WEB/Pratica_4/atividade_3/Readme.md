@@ -14,8 +14,6 @@
 
 ## Descrição do Projeto
 
-Esta página HTML serve como a página de destino da "Atividade 3." Ela inclui navegação para outras atividades por meio de links no cabeçalho e fornece um título identificando a atividade atual.
-
 ## Tecnologias Utilizadas
 
 - _Linguagens:_ Dart
