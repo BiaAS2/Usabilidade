@@ -9,10 +9,12 @@
 </p>
 
 <p align="center">
-  <img src="./assets/IMG/preview-templates.png" alt="Atividade 1">
+  <img src="./assets/img/web pratica 4 atividade 3.png" alt="Atividade 3">
 </p>
 
 ## Descrição do Projeto
+
+Esta página HTML permite que os usuários insiram notas de alunos em duas disciplinas e calcula as médias da turma para cada disciplina. Ela utiliza JavaScript para efetuar os cálculos à medida que as notas são inseridas e atualiza a exibição das notas totais e das médias da turma. A barra de navegação no cabeçalho permite que os usuários acessem outras páginas relacionadas.
 
 ## Tecnologias Utilizadas
 
