@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url(../IMG/bakgroundmain1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+display: flex;
+flex-direction: row;
+}
+nav>a>h2{
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+    width: 30px;
+    font-size: 25px;
+    border-radius: 50px;
+    font-family: 'Marcellus SC', serif;
+    transition: all ease-in-out 0.2s;
+}
+nav>a>h2:hover{
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+    width: 40px;
+    font-size: 30px;
+    border-radius: 50px;
+    font-family: 'Marcellus SC', serif;
+    transition: all ease-in-out 0.2s;
+}
+div{
+margin: 190px 190px;
+display: flex;
+
+}
+div>article{
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-family: 'Marvel', sans-serif;
+}
+article>h1{
+    font-size: 100px;
+    text-align: center;
+    font-weight: lighter;
+    line-height: 80px;
+    letter-spacing: 12px;
+}
+article>h3{
+    font-size: 40px;
+    font-weight: lighter;
+    margin-top: 20px;
+    font-family: 'Marcellus SC', serif;
+}
+article>a>h2{
+    font-size: 40px;
+    font-weight: lighter;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.144);
+    margin-right:500px;
+    margin-left: 500px;
+    border-radius: 20px;
+    color: white;
+    transition: all ease-in-out 0.3s;
+    
+}
+article>a>h2:hover{
+    font-size: 45px;
+    font-weight: lighter;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.144);
+    margin-right:500px;
+    margin-left: 500px;
+    border-radius: 20px;
+    color: white;
+    transition: all ease-in-out 0.3s;
+
+}
