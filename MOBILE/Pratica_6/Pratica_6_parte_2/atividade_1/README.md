@@ -14,6 +14,8 @@
 
 ## Descrição do Projeto
 
+O aplicativo permite aos usuários inserirem os preços do etanol e da gasolina na primeira tela, calcula a relação de preços e fornece uma recomendação na segunda tela, com base nessa relação. Os usuários podem voltar para a primeira tela e realizar novos cálculos quantas vezes desejarem. É uma ferramenta útil para ajudar na decisão de abastecimento de veículos.
+
 ## Tecnologias Utilizadas
 
 - _Linguagens:_ Dart
