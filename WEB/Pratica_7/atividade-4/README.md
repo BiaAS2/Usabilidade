@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/IMG/preview-templates.png" alt="Atividade 1">
+  <img src="./assets/img/web pratica 7 atividade 4.png" alt="Atividade 4">
 </p>
 
 ## Descrição do Projeto
