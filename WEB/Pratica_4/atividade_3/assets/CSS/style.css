@@ -1,0 +1,48 @@
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 20px auto;
+}
+
+th,
+td {
+  border: 1px solid #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+thead {
+  background-color: #3867ce;
+  color: #ffffff;
+}
+
+tbody tr:hover {
+  background-color: #ffffff !important;
+  color: #ff4500;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #8b9dc3;
+}
+tbody tr:nth-child(odd) {
+  background-color: #dfe3ee;
+}
+
+.mediaTurma {
+  background-color: #ff4500;
+  color: #fff;
+  text-align: start;
+}
+
+.vertical {
+  vertical-align: top;
+  background-color: #dfe3ee;
+  text-align: start;
+  color: #244180;
+}
+.vertical:hover {
+  background-color: #ff4500;
+  color: #fff;
+}
