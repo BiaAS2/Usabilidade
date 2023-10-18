@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../header/header.css" />
     <link rel="stylesheet" href="assets/CSS/style.css" />
-    <title>Tabela 1</title>
+    <title>Tabela 2</title>
   </head>
-
   <body>
     <header class="cabecalho">
       <ul>
-        <li><a href="../atividade_1/index.html">1</a></li>
-        <li class="active"><a href="../atividade_2/index.html">2</a></li>
+        <li class="active"><a href="../atividade_1/index.html">1</a></li>
+        <li><a href="../atividade_2/index.html">2</a></li>
         <li><a href="../atividade_3/index.html">3</a></li>
       </ul>
     </header>
@@ -22,29 +21,17 @@
     <table id="tabela">
       <thead>
         <tr>
+          <th>Disciplina</th>
           <th>Nome do Aluno</th>
           <th>Nota P1</th>
           <th>Nota P2</th>
-          <th>Nota T1</th>
           <th>Nota Total</th>
-          <th>Faltas</th>
         </tr>
       </thead>
 
       <tbody>
         <tr>
-          <td contenteditable="true"></td>
-          <!--Nome do aluno-->
-          <td contenteditable="true" oninput="calcularNotas(this)"></td>
-          <!--Nota 1-->
-          <td contenteditable="true" oninput="calcularNotas(this)"></td>
-          <!--Nota 2-->
-          <td contenteditable="true" oninput="calcularNotas(this)"></td>
-          <!--Nota 3-->
-          <td class="notaTotal"></td>
-          <!--Somatória das notas de cada aluno-->
-          <td contenteditable="true"></td>
-          <!--Faltas-->
+          <td class="vertical" rowspan="7">Web</td>
         </tr>
         <tr>
           <td contenteditable="true"></td>
@@ -53,12 +40,8 @@
           <!--Nota 1-->
           <td contenteditable="true" oninput="calcularNotas(this)"></td>
           <!--Nota 2-->
-          <td contenteditable="true" oninput="calcularNotas(this)"></td>
-          <!--Nota 3-->
           <td class="notaTotal"></td>
           <!--Somatória das notas de cada aluno-->
-          <td contenteditable="true"></td>
-          <!--Faltas-->
         </tr>
         <tr>
           <td contenteditable="true"></td>
@@ -67,12 +50,8 @@
           <!--Nota 1-->
           <td contenteditable="true" oninput="calcularNotas(this)"></td>
           <!--Nota 2-->
-          <td contenteditable="true" oninput="calcularNotas(this)"></td>
-          <!--Nota 3-->
           <td class="notaTotal"></td>
           <!--Somatória das notas de cada aluno-->
-          <td contenteditable="true"></td>
-          <!--Faltas-->
         </tr>
         <tr>
           <td contenteditable="true"></td>
@@ -81,12 +60,8 @@
           <!--Nota 1-->
           <td contenteditable="true" oninput="calcularNotas(this)"></td>
           <!--Nota 2-->
-          <td contenteditable="true" oninput="calcularNotas(this)"></td>
-          <!--Nota 3-->
           <td class="notaTotal"></td>
           <!--Somatória das notas de cada aluno-->
-          <td contenteditable="true"></td>
-          <!--Faltas-->
         </tr>
         <tr>
           <td contenteditable="true"></td>
@@ -95,25 +70,87 @@
           <!--Nota 1-->
           <td contenteditable="true" oninput="calcularNotas(this)"></td>
           <!--Nota 2-->
-          <td contenteditable="true" oninput="calcularNotas(this)"></td>
-          <!--Nota 3-->
           <td class="notaTotal"></td>
           <!--Somatória das notas de cada aluno-->
-          <td contenteditable="true"></td>
-          <!--Faltas-->
         </tr>
-      </tbody>
-
-      <tfoot>
         <tr>
-          <td>Média da Turma</td>
-          <td id="mediaTurma"></td>
+          <td contenteditable="true"></td>
+          <!--Nome do aluno-->
+          <td contenteditable="true" oninput="calcularNotas(this)"></td>
+          <!--Nota 1-->
+          <td contenteditable="true" oninput="calcularNotas(this)"></td>
+          <!--Nota 2-->
+          <td class="notaTotal"></td>
+          <!--Somatória das notas de cada aluno-->
+        </tr>
+        <tr>
+          <td class="mediaTurma">Média Web</td>
+          <td id="mediaWeb" class="mediaTurma" colspan="3"></td>
           <!--Mostra a média da turma-->
         </tr>
-      </tfoot>
-    </table>
 
-    <div class="btn"></div>
+        <tr>
+          <td class="vertical" rowspan="7">Lógica de Programação</td>
+        </tr>
+        <tr>
+          <td contenteditable="true"></td>
+          <!--Nome do aluno-->
+          <td contenteditable="true" oninput="calcularNotasLogica(this)"></td>
+          <!--Nota 1-->
+          <td contenteditable="true" oninput="calcularNotasLogica(this)"></td>
+          <!--Nota 2-->
+          <td class="notaTotal2"></td>
+          <!--Somatória das notas de cada aluno-->
+        </tr>
+
+        <tr>
+          <td contenteditable="true"></td>
+          <!--Nome do aluno-->
+          <td contenteditable="true" oninput="calcularNotasLogica(this)"></td>
+          <!--Nota 1-->
+          <td contenteditable="true" oninput="calcularNotasLogica(this)"></td>
+          <!--Nota 2-->
+          <td class="notaTotal2"></td>
+          <!--Somatória das notas de cada aluno-->
+        </tr>
+        <tr>
+          <td contenteditable="true"></td>
+          <!--Nome do aluno-->
+          <td contenteditable="true" oninput="calcularNotasLogica(this)"></td>
+          <!--Nota 1-->
+          <td contenteditable="true" oninput="calcularNotasLogica(this)"></td>
+          <!--Nota 2-->
+          <td class="notaTotal2"></td>
+          <!--Somatória das notas de cada aluno-->
+        </tr>
+        <tr>
+          <td contenteditable="true"></td>
+          <!--Nome do aluno-->
+          <td contenteditable="true" oninput="calcularNotasLogica(this)"></td>
+          <!--Nota 1-->
+          <td contenteditable="true" oninput="calcularNotasLogica(this)"></td>
+          <!--Nota 2-->
+          <td class="notaTotal2"></td>
+          <!--Somatória das notas de cada aluno-->
+        </tr>
+        <tr>
+          <td contenteditable="true"></td>
+          <!--Nome do aluno-->
+          <td contenteditable="true" oninput="calcularNotasLogica(this)"></td>
+          <!--Nota 1-->
+          <td contenteditable="true" oninput="calcularNotasLogica(this)"></td>
+          <!--Nota 2-->
+          <td class="notaTotal2"></td>
+          <!--Somatória das notas de cada aluno-->
+        </tr>
+        <tr>
+          <td class="mediaTurma">Média Lógica de Programação</td>
+          <td id="mediaProgram" class="mediaTurma" colspan="3"></td>
+          <!--Mostra a média da turma-->
+        </tr>
+      </tbody>
+      <tbody></tbody>
+    </table>
     <script src="./assets/script.js"></script>
   </body>
 </html>
