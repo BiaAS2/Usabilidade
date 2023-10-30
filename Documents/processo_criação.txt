@@ -1,0 +1,26 @@
+Nome do jogo: Blackout
+
+Premissa: Jogo de destruir os blocos com uma bolinha
+
+Diferenciais do jogo: Escolhar o nivel de dificuldade -> facil, intermediario, avançado,hardcore.
+                      acessibilidade -> Com a paleta de cores para pessoas daltonicas.
+                      acessibilidade -> Tela intuitiva e facil acesso.
+                      acessibilidade -> Avatar em libras para facilitar o acesso ao jogo para pessoas surdas.
+                      bonus no jogo  -> Blocos com habilidades especiais (bonus de vida)(ganha um bola extra).
+
+Perfil do público-alvo: Livre
+
+Tipo ou gênero do jogo: Arcade
+
+Classificação etária: 5 anos +
+
+Plataforma-alvo e requisitos de hardaware: computador com mouse e teclado 
+
+Lincenças e autorizações de terceiros: Livre
+
+Análise de competitividade: Ja existe desse jogo no mercado mas agora vamos lançar uma nova versao com acessibilidade e compativel para multiplataforma assim aumentando o publico para o jogo.
+
+Objetivos do game: Destuir todos os blocos sem deixar a bola cair e obter os bonus contido nos blocos especiais.
+
+Perspectiva de retorno financeiro: colocar propagandas publicitarias, planos de assinatura mensal,semestra ou anual(desconto no semestral 10% e anual 20%)
+
