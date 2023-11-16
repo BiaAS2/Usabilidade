@@ -8,6 +8,22 @@
     <link rel="stylesheet" href="/WEB/Pratica_9/atividade_3/assets/style3.css">
 </head>
 
+
+<header>
+    <div class="links">
+        <a href="/WEB/Pratica_9/atividade_1/index.html">
+            <p>1</p>
+        </a>
+        <a href="/WEB/Pratica_9/atividade_2/index2.html">
+            <p>2</p>
+        </a>
+        <a href="/WEB/Pratica_9/atividade_3/index3.html">
+            <p>3</p>
+        </a>
+
+    </div>
+</header>
+
 <body>
     <div class="main">
         <h1>Processar Matrizes</h1>
@@ -24,21 +40,24 @@
         <div class="exibir">
             <h1>Opções de Exibição da Matriz 3x3</h1>
 
-            <h2>Mostrar Matriz Inteira</h2>
-            <button onclick="mostrarMatriz()">MOSTRAR</button>
+            <div class="opcExibir">
+                <h2>Mostrar Matriz Inteira</h2>
+                <button onclick="mostrarMatriz()">MOSTRAR</button>
 
-            <h2>Mostrar Diagonal Principal</h2>
-            <button onclick="mostrarDiagoP()">MOSTRAR</button>
+                <h2>Mostrar Diagonal Principal</h2>
+                <button onclick="mostrarDiagoP()">MOSTRAR</button>
 
-            <h2>Mostrar Diagonal Secundária</h2>
-            <button onclick="mostrarDiagoS()">MOSTRAR</button>
+                <h2>Mostrar Diagonal Secundária</h2>
+                <button onclick="mostrarDiagoS()">MOSTRAR</button>
 
+            </div>
         </div>
 
-        <div id="resultado"></div>
-        <div id="resultadoDiagonal"></div>
-        <div id="resultadoDiagonalSecundaria"></div>
-
+        <div class="matrizes">
+            <div id="resultado"></div>
+            <div id="resultadoDiagonal"></div>
+            <div id="resultadoDiagonalSecundaria"></div>
+        </div>
     </div>
     <script src="/WEB/Pratica_9/atividade_3/script3.js"></script>
 </body>
