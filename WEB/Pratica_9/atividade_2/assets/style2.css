@@ -46,7 +46,8 @@ header > .links {
 
 }
 button{
-    width:300px;
+    align-items: center;
+    width:15rem;
     padding: 5px;
     border: none white;
     border-radius: 20px;
