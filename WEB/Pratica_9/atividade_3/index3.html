@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica 9 Atividade 3</title>
+    <link rel="stylesheet" href="/WEB/Pratica_9/atividade_3/assets/style3.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Processar Matrizes</h1>
+        <p>Insira valores nos campos abaixo</p>
+        <div class="criar">
+            <input type="number" placeholder="Primeiro Valor" id="valor1">
+            <button onclick="capvalor1()">Adicionar</button><br>
+            <input type="number" placeholder="Segundo Valor" id="valor2">
+            <button onclick="capvalor2()">Adicionar</button><br>
+            <input type="number" placeholder="Terceiro Valor" id="valor3">
+            <button onclick="capvalor3()">Adicionar</button><br>
+        </div>
+
+        <div class="exibir">
+            <h1>Opções de Exibição da Matriz 3x3</h1>
+
+            <h2>Mostrar Matriz Inteira</h2>
+            <button onclick="mostrarMatriz()">MOSTRAR</button>
+
+            <h2>Mostrar Diagonal Principal</h2>
+            <button onclick="mostrarDiagoP()">MOSTRAR</button>
+
+            <h2>Mostrar Diagonal Secundária</h2>
+            <button onclick="mostrarDiagoS()">MOSTRAR</button>
+
+        </div>
+
+        <div id="resultado"></div>
+        <div id="resultadoDiagonal"></div>
+        <div id="resultadoDiagonalSecundaria"></div>
+
+    </div>
+    <script src="/WEB/Pratica_9/atividade_3/script3.js"></script>
+</body>
+
+</html>
