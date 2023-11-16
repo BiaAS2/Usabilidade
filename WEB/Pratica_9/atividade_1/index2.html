@@ -4,25 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pratica 9 Atividade 1</title>
+    <link rel="stylesheet" href="./assets/style2.css">
 </head>
 <body>
-    
-
     <div class="main">
         <h1>Ler Vetor</h1>
-        
         <div class="inserir">
-          <p>Insira um número natural</p>
-          <input type="number" id="valor">
-          <button onclick="ler()">Retornar</button>
-          <div id="listar"></div>
+            <p>Insira uma posição</p>
+            <input type="number" id="posicao"> <br>
+            <button onclick="lerPosicao()" id="btnPosicao">Retornar Posição Inserida</button><br>
+            <button onclick="ler()" id="ler">Retornar Vetor Inteiro</button> <br>
+            <button onclick="lerinverso()" id="lerinverso">Retornar Vetor Inverso</button>
+            
+            <div id="listar"></div>
         </div>
-
-        <button>Imprimir Vetor</button>
-        <button>Imprimir Inverso</button>
-
-      </div>
-
+    </div>
     <script src="script2.js"></script>
 </body>
 </html>

@@ -1,30 +1,42 @@
 var vetor = [];
 
-var valor1 = ["Numero 1"],
-    valor2 = ["Numero 2"],
-    valor3 = ["Numero 3"],
-    valor4 = ["Numero 4"],
-    valor5 = ["Numero 5"],
-    valor6 = ["Numero 6"],
-    valor7 = ["Numero 7"],
-    valor8 = ["Numero 8"],
-    valor9 = ["Numero 9"],
-    valor10 = ["Numero 10"];
-    
-    vetor.push(valor1);
-    vetor.push(valor2);
-    vetor.push(valor3);
-    vetor.push(valor4);
-    vetor.push(valor5);
-    vetor.push(valor6);
-    vetor.push(valor7);
-    vetor.push(valor8);
-    vetor.push(valor9);
-    vetor.push(valor10);
+vetor[0] = "Numero 1";
+vetor[1] = "Numero 2";
+vetor[2] = "Numero 3";
+vetor[3] = "Numero 4";
+vetor[4] = "Numero 5";
+vetor[5] = "Numero 6";
+vetor[6] = "Numero 7";
+vetor[7] = "Numero 8";
+vetor[8] = "Numero 9";
+vetor[9] = "Numero 10";
 
-function ler(){
-    var valor = parseInt(document.getElementById("valor").value)
-    var lista = document.getElementById("listar")
-
+function lerPosicao() {
+    var posicao = parseInt(document.getElementById("posicao").value);
+    var leitura = document.getElementById("listar");
     
+    if (posicao >= 0 && posicao < vetor.length) {
+        leitura.innerText = "Valor na posição " + posicao + ": " + vetor[posicao];
+    } else {
+        leitura.innerText = "Posição inexistente, insira um valor entre 0 e 9";
+    }
+}
+
+function imprimirVetor() {
+    var leitura = document.getElementById("listar");
+    leitura.innerText = vetor.join(', ');
+}
+
+function ler() {
+    imprimirVetor();
+}
+
+function imprimirVetorInverso() {
+    var leitura = document.getElementById("listar");
+    var inverso = vetor.slice().reverse();
+    leitura.innerText = inverso.join(', ');
+}
+
+function lerinverso(){
+    imprimirVetorInverso();
 }
