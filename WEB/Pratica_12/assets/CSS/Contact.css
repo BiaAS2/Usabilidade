@@ -1,0 +1,17 @@
+/* Adicione estilos conforme necessário */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  max-width: 400px;
+  height: 30rem;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
