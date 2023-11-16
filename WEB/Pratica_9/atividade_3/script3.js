@@ -1,3 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var matriz = [
     [],
     [],
@@ -62,3 +76,9 @@ function mostrarDiagoS() {
     var diagonalSecundaria = [matriz[0][2], matriz[1][1], matriz[2][0]];
     mostrar.innerText += diagonalSecundaria.join(', ');
 }
+
+
+
+
+
+
