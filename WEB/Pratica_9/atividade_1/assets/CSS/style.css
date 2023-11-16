@@ -14,13 +14,14 @@ header > .links {
   color: white;
 }
 
-.links > p {
+.links > a {
   font-size: 25px;
   margin: 15px;
   background-color: white;
   padding: 15px 22px;
   color: black;
   border-radius: 50px;
+  text-decoration: none;
 }
 
 .main {

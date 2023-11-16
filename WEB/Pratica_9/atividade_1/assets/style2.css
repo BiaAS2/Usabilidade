@@ -2,19 +2,69 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+
 }
 body{
-    color: red;
     text-align: center;
     align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDV8fGdyYWRpZW50fGVufDB8fHx8MTY3NDQzNTUzMg&ixlib=rb-4.0.3&q=80&w=2000);
+
+}
+header > .links {
+    display: flex;
+    color: white;
+  }
+  
+  .links > a {
+    font-size: 25px;
+    margin: 15px;
+    background-color: white;
+    padding: 15px 22px;
+    color: black;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+
+.main{
+    margin-top: 5%;
+    background: linear-gradient(0deg, rgba(23, 16, 71, 1) 0%, rgba(86, 68, 197, 1) 100%);
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 50px;
+    padding: 50px;
+}
+.main>h1{
+    color: white;
+    font-size: 50px;
+}
+.inserir>p{
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-bottom: 10px;
 
 }
 button{
-    width:180px;
+    width:300px;
+    padding: 5px;
+    border: none white;
+    border-radius: 20px;
     margin: 5px;
+    font-size: 20px;
 }
 input{
     padding: 10px;
     border-radius: 20px;
     text-align: center;
+    width: 250px;
+}
+#listar{
+    color: white;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.226);
+    border-radius: 20px;
+    padding: 5px;
+    height: 150px;
+
 }
