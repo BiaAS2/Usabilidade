@@ -20,7 +20,7 @@ function criarElemento() {
     "2",
     "3",
     "+",
-    "0",
+    "0", 
     ".",
   ];
 

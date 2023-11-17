@@ -1,0 +1,84 @@
+*{
+  font-family: monospace;
+  font-size: 15px;
+}
+h1 , h2 , h3 , h4 , p{
+  color: #FFFF;
+}
+
+
+.container::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(135deg, #000000, #184E72);
+  opacity: 0.3;
+  z-index: -1; 
+  border-radius: 15px;
+}
+
+.container {
+  position: relative;
+  padding: 20px;
+}
+label{
+  color: #FFFFFF;
+}
+
+
+body {
+ 
+  
+    background-image: url('../SRC/image\ 8.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  
+  
+}
+
+.btn{
+  width: 150px;
+  right: -190px;
+  border-radius: 10px;
+  color: #0587DB;
+  
+}
+.btn-success {
+  
+  color: #0587DB; 
+  border: 2px solid #FFFFFF; 
+ 
+  
+}
+
+.btn-success:hover {
+  background-color: #ffffff; 
+  color: #1B4D6F; 
+}
+
+.btn-with-line {
+  position: relative;
+}
+
+.btn-with-line:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 1px;
+  background-color: #000; 
+}
+
+.register-link {
+  color: #1B4D6F;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
