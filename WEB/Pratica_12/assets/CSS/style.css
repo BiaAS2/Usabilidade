@@ -88,10 +88,14 @@ section .detalhes span {
 }
 
 footer {
+  display: flex;
   background-color: #ffbbdd;
+  height: 0.5rem;
   padding: 20px;
   margin-top: auto;
   text-align: center;
+  align-items: center;
+  justify-content: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.8rem;
 }

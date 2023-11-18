@@ -1,14 +1,19 @@
-function validarForm() {
-    var nome = document.getElementById("nome").value;
-    var email = document.getElementById("email").value;
-    var mensagem = document.getElementById("mensagem").value;
+document.getElementById("contact-form").addEventListener("submit", function(event) {
+      event.preventDefault(); // Impede o envio padrão do formulário
 
-    if (nome === "" || email === "" || mensagem === "") {
+      var nome = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var motivoContato = document.getElementById("reason").value;
+      var mensagem = document.getElementById("message").value;
+
+      if (nome === "" || email === "" || motivoContato === "" || mensagem === "") {
         alert("Por favor, preencha todos os campos.");
-        return false;
-    }
+      } else {
+        // Adicione outras validações conforme necessário
 
-    // Adicione outras validações conforme necessário
+        // Mostrar mensagem de agradecimento
+        alert("Muito obrigada por nos enviar seu feedback!");
 
-    return true;
-}
+        // Substitua este console.log com a ação que deseja realizar após a validação bem-sucedida.
+      }
+    });
