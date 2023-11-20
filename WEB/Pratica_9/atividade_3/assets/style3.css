@@ -23,7 +23,10 @@ header>.links {
     border-radius: 50px;
     text-decoration: none;
 }
-
+.centro{
+    display: grid; 
+    place-items: center;
+}
 .main {
     align-items: center;
     text-align: center;
@@ -32,7 +35,7 @@ header>.links {
     background: rgb(23, 16, 71);
     background: linear-gradient(0deg, rgba(23, 16, 71, 1) 0%, rgba(86, 68, 197, 1) 100%);
     color: white;
-    margin: 2% 35%;
+
     padding: 1rem;
     height: auto;
     border-radius: 50px;
