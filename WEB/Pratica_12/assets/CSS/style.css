@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  background-color: #ffbbdd;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  color: #fff;
+  padding: 20px;
+
+  align-items: center;
+}
+header .titulo {
+  margin: 0 auto;
+}
+
+nav {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+nav ul {
+  padding: 20px;
+  display: flex;
+  background-color: #f0b0d0;
+  justify-content: left;
+  align-items: center;
+  height: 3rem;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section div {
+  height: 13rem;
+  border: #e5e5e5 groove 1px;
+}
+
+section .produto {
+  margin: 2rem 2rem 6rem 3rem;
+}
+
+section .produtoImagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section .detalhes {
+  display: grid;
+  background-color: #f0f0f0;
+  height: 5rem;
+}
+
+section .detalhes p,
+span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+}
+
+section .detalhes span {
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  background-color: #ffbbdd;
+  height: 0.5rem;
+  padding: 20px;
+  margin-top: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8rem;
+}

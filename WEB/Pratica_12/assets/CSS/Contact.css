@@ -1,0 +1,99 @@
+/* Adicione estilos conforme necessário */
+
+.main-content {
+  max-width: 600px;
+  height: 32rem;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  justify-content: center;
+}
+
+h1 {
+  display: flex;
+  align-items: start;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  border: none;
+  height: 25rem;
+  flex-direction: column; /* Adicionado flex-direction: column */
+  margin-bottom: 1.5rem;
+}
+
+form {
+  padding: 1rem;
+  display: flex;
+  width: 35rem;
+  height: 20rem;
+  flex-direction: column;
+}
+
+/* Contêiner para rótulos e campos de entrada */
+.form-group {
+  display: flex;
+  flex-direction: row; /* Invertendo a ordem dos elementos */
+  justify-content: space-between; /* Espaçamento entre rótulos e campos */
+  margin-bottom: 1rem; /* Espaçamento vertical entre grupos de rótulo e campo */
+  border: none;
+}
+
+form label {
+  width: 30%;
+  text-align: right; /* Alinhando o texto à direita */
+}
+
+form input,
+select,
+textarea {
+  width: 68%;
+  height: 2rem;
+  border: 1px solid #ccc; /* Adapte a propriedade border conforme necessário */
+  padding-left: 8px;
+  margin-bottom: 10px; /* Adapte a margem conforme necessário */
+  box-sizing: border-box; /* Mantém a largura total ao adicionar preenchimento e borda */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#message {
+  height: 6rem;
+}
+
+button {
+  width: 68%;
+  height: 2.4rem;
+  margin-left: auto;
+  background-color: #ffbbdd;
+  color: #fff;
+  font-size: 1.3rem;
+  border: outset;
+}
+button:hover {
+  background-color: #e070a8;
+}
+
+#checkbox {
+  display: flex;
+  width: 68%;
+  margin-left: auto;
+  align-items: center;
+}
+
+#subscribe {
+  display: flex;
+  margin-right: 1rem;
+  margin-top: 10px;
+}
+
+#label {
+  display: flex;
+  margin-right: 20rem; /* Ajuste conforme necessário */
+  text-align: left;
+  white-space: nowrap; /* Evita que o texto quebre para a próxima linha */
+  text-overflow: ellipsis; /* Adiciona reticências (...) ao final do texto que ultrapassa a largura */
+}

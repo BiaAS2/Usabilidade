@@ -1,0 +1,86 @@
+.psicologo {
+  background-color: #FFC0CB;
+}
+
+.paciente {
+  background-color: #006400;
+}
+h1{
+  text-decoration: underline;
+  color: #FFFF;
+  font-style: bold ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 ,  h4{
+  color: #FFFF;
+
+  
+}
+h3 {
+  color: #FFFF;
+  padding: 17px;
+}
+
+.rounded-circle{
+ width: 220px;
+ height: 220px;
+ box-shadow: 0px 0px 5px 0px rgb(44, 44, 44);
+}
+body {
+  text-align: center;
+  
+  background-image: url('../SRC/image\ 6.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+
+}
+
+.register-link {
+  color: white;
+  text-decoration: none;
+  background-color: rgba(212, 212, 212, 0.5); 
+  padding: 9px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 0px black;
+}
+
+.register-link:hover {
+  text-decoration: none;
+}
+
+.mt-3{
+  padding: 20px;
+  margin: 20px;
+ 
+}
+.btn--login {
+  width: 150px;
+  background-color: rgba(212, 212, 212, 0.5); 
+  border: none;
+  color: #ffffff; 
+}
+#usuario{
+  border-radius: 12px;
+  background: rgba(230, 230, 230, 0.308);
+  border: none;
+  color: #ffffff;
+}
+
+#senha {
+  border-radius: 12px;
+  background-color: #FF8DA4; 
+  border: none;
+  color: #FFFF;
+}
+#usuario::placeholder {
+  color: white;
+  text-align: center;
+}
+
+#senha::placeholder {
+  color: white;
+  text-align: center;
+}
+
