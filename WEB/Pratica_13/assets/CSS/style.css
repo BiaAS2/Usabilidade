@@ -1,0 +1,86 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  color: #212529;
+  background-image: url('../IMG/image\ 6.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.navbar-brand {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+.class--consultar {
+background-color: #007bff;
+
+
+}
+
+/* Section Styles */
+section {
+  padding: 40px 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #e4e4e4; /* Dark text color */
+  text-align: center;
+}
+
+.lead {
+  font-size: 1.25rem;
+  color: #531a28; /* Subdued text color */
+}
+
+
+
+/* Album Styles */
+.album {
+  background-color: #f8f9fa;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 225px;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: left;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
