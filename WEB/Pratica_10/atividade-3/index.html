@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    #output {
+      margin-top: 20px;
+    }
+  </style>
+  <title>Cadastro de Pessoas</title>
+</head>
+<body>
+
+  <h1>Cadastro de Pessoas</h1>
+  <h2>Cadastre ou o cpf ou o cnpj</h2>
+
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" placeholder="Digite o nome">
+
+  <label for="cpf">CPF:</label>
+  <input type="text" id="cpf" placeholder="Digite o CPF">
+
+  <label for="cnpj">CNPJ:</label>
+  <input type="text" id="cnpj" placeholder="Digite o CNPJ">
+
+  <button onclick="cadastrarPessoa()">Cadastrar Pessoa</button>
+  <button onclick="imprimirCadastro()">Imprimir Cadastro</button>
+
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+    
+</body>
+</html>
