@@ -89,16 +89,17 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  position: absolute;
+  bottom: 8.8rem;
+  left: 49rem;
+  
   background-color: salmon;
   color: white;
 
   width: 7%;
   height: 3rem;
 
-  position: fixed;
-  top: 35rem;
-  left: 49rem;
+  align-self: flex-end;
 
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
