@@ -1,0 +1,196 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: rgb(var(--bs-tertiary-color-rgb));
+  background-image: url('../IMG/image\ 6.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+ 
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+/* rtl:end:remove */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.imagem--luiz{
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 19px 1px palevioletred;
+
+}
+.imagem--maria{
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 19px 1px palevioletred;
+}
+.imagem--paulo{
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 19px 1px palevioletred;
+}
+.imagem--capa{
+  margin-bottom: 50px;
+  left: 230px;
+    width: 1860px;
+   height: 590px;
+   padding-left: 5px;
+   margin: 10px;
+  box-shadow: 0 0 19px 1px palevioletred;
+}
+.carousel-caption{
+  padding: 5px;
+  text-align: center;
+}
+.imagem--app{
+ width: 500px;
+ box-shadow: 0 0 19px 1px palevioletred;
+}
+.imagem--paciente{
+  width: 500px;
+  box-shadow: 0 0 19px 1px palevioletred;
+ }
+ 
+  
+ .carousel-control-prev{
+  margin: 100px;
+ }
+ .row--imagem{
+  padding: 25px;
+  border: 5px solid #1a1a1a
+ }
+p{
+  color: rgb(24, 24, 24);
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+h2 {
+  color: rgb(65, 65, 65);
+}
+.center {
+  text-align: center;
+  
+}
+header {
+ 
+  padding: 10px 0;
+  border-radius: 9px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+ul {
+  list-style-type: none;
+  padding: 15px;
+  margin: 10px;
+}
+ul li {
+  margin-bottom: 0;
+}
+
+.navbar-nav a {
+  padding: 0.5rem 1rem;
+}
+
+.navbar-nav a:hover {
+  color: #ffc107;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.form-control {
+  margin-right: 10px;
+}
+
+.btn-outline-success {
+  color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
