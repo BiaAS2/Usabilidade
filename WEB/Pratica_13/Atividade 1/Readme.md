@@ -14,6 +14,8 @@
 
 ## Descrição do Projeto
 
+A página cria uma estrutura simples com três painéis, cada um representando uma pessoa diferente com uma foto e um texto de exemplo. O Bootstrap é utilizado para a estilização, e há um arquivo de estilo local para personalização adicional. O conteúdo é estático e pode ser personalizado conforme necessário.
+
 ## Tecnologias Utilizadas
 
 - _Linguagens:_ Dart

@@ -14,6 +14,8 @@
 
 ## Descrição do Projeto
 
+Este código representa o esqueleto de um site que oferece serviços de consulta psicológica online, apresentando informações sobre os profissionais, depoimentos de pacientes, funcionalidades do aplicativo e incentivando os visitantes a agendar consultas. O design é responsivo, graças ao uso do framework Bootstrap.
+
 ## Tecnologias Utilizadas
 
 - _Linguagens:_ Dart

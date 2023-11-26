@@ -14,6 +14,8 @@
 
 ## Descrição do Projeto
 
+O código cria uma página web com uma aparência moderna e recursos relacionados ao bem-estar emocional. Utiliza o Bootstrap para facilitar o design responsivo e oferece a capacidade de alternar entre temas claro, escuro ou automático. A estrutura está organizada em seções, cada uma com informações específicas sobre os serviços oferecidos pelo site.
+
 ## Tecnologias Utilizadas
 
 - _Linguagens:_ Dart

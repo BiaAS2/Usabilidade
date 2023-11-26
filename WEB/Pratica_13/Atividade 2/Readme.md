@@ -14,6 +14,8 @@
 
 ## Descrição do Projeto
 
+Essa página web utiliza o Bootstrap para estilização e inclui um texto de exemplo no corpo da página. O arquivo de estilo local (style.css) também é vinculado para personalizações adicionais, mas como o conteúdo estático é limitado, essa página serve principalmente como um exemplo básico de estrutura HTML.
+
 ## Tecnologias Utilizadas
 
 - _Linguagens:_ Dart
