@@ -3,36 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-    }
-
-    #output {
-      margin-top: 20px;
-    }
-  </style>
+  <link rel="stylesheet" href="../header/header.css">
+  <link rel="stylesheet" href="./style.css">
   <title>Cadastro de Pessoas</title>
 </head>
 <body>
+  <header class="cabecalho">
+      <ul>
+        <li><a href="../atividade-1/index.html">1</a></li>
+        <li><a href="../atividade-2/index.html">2</a></li>
+        <li class="active"><a href="../atividade-3/index.html">3</a></li>
+      </ul>
+      <div class="praticaAtual">ATIVIDADE 3</div>
+  </header>
 
-  <h1>Cadastro de Pessoas</h1>
-  <h2>Cadastre ou o cpf ou o cnpj</h2>
+    <div class="formulario">
+    <h1>Cadastro de Pessoas</h1>
+    <h2>Cadastre o CPF ou o CNPJ</h2>
 
-  <label for="nome">Nome:</label>
-  <input type="text" id="nome" placeholder="Digite o nome">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" placeholder="Digite o nome">
 
-  <label for="cpf">CPF:</label>
-  <input type="text" id="cpf" placeholder="Digite o CPF">
+    <label for="cpf">CPF:</label>
+    <input type="text" id="cpf" placeholder="Digite o CPF">
 
-  <label for="cnpj">CNPJ:</label>
-  <input type="text" id="cnpj" placeholder="Digite o CNPJ">
+    <label for="cnpj">CNPJ:</label>
+    <input type="text" id="cnpj" placeholder="Digite o CNPJ">
 
-  <button onclick="cadastrarPessoa()">Cadastrar Pessoa</button>
-  <button onclick="imprimirCadastro()">Imprimir Cadastro</button>
+    <div class="button-container">
+      <button class="cadastrar" onclick="cadastrarPessoa()">Cadastrar Pessoa</button>
+      <button class="imprimir" onclick="imprimirCadastro()">Imprimir Cadastro</button>
+    </div>
 
-  <div id="output"></div>
+    <div id="output"></div>
+  </div>
 
   <script src="script.js"></script>
     
