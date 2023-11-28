@@ -3,16 +3,13 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
   padding-bottom: 3rem;
   color: rgb(var(--bs-tertiary-color-rgb));
-  background-image: url('../IMG/image\ 6.png');
-  background-size: cover; 
-  background-position: center; 
+  background-image: url("../IMG/image\ 6.png");
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
- 
 }
-
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -32,7 +29,6 @@ body {
   height: 32rem;
 }
 
-
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -43,11 +39,10 @@ body {
 }
 /* rtl:begin:ignore */
 .marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
 }
 /* rtl:end:ignore */
-
 
 /* Featurettes
 ------------------------- */
@@ -59,7 +54,7 @@ body {
 /* Thin out the marketing headings */
 /* rtl:begin:remove */
 .featurette-heading {
-  letter-spacing: -.05rem;
+  letter-spacing: -0.05rem;
 }
 
 /* rtl:end:remove */
@@ -86,56 +81,54 @@ body {
   }
 }
 
-.imagem--luiz{
-  width: 200px;
-  border-radius: 50%;
-  box-shadow: 0 0 19px 1px palevioletred;
-
-}
-.imagem--maria{
+.imagem--luiz {
   width: 200px;
   border-radius: 50%;
   box-shadow: 0 0 19px 1px palevioletred;
 }
-.imagem--paulo{
+.imagem--maria {
   width: 200px;
   border-radius: 50%;
   box-shadow: 0 0 19px 1px palevioletred;
 }
-.imagem--capa{
+.imagem--paulo {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 19px 1px palevioletred;
+}
+.imagem--capa {
   margin-bottom: 50px;
   left: 230px;
-    width: 1860px;
-   height: 590px;
-   padding-left: 5px;
-   margin: 10px;
+  width: 1860px;
+  height: 590px;
+  padding-left: 5px;
+  margin: 10px;
   box-shadow: 0 0 19px 1px palevioletred;
 }
-.carousel-caption{
+.carousel-caption {
   padding: 5px;
   text-align: center;
 }
-.imagem--app{
- width: 500px;
- box-shadow: 0 0 19px 1px palevioletred;
-}
-.imagem--paciente{
+.imagem--app {
   width: 500px;
   box-shadow: 0 0 19px 1px palevioletred;
- }
- 
-  
- .carousel-control-prev{
+}
+.imagem--paciente {
+  width: 500px;
+  box-shadow: 0 0 19px 1px palevioletred;
+}
+
+.carousel-control-prev {
   margin: 100px;
- }
- .row--imagem{
+}
+.row--imagem {
   padding: 25px;
-  border: 5px solid #1a1a1a
- }
-p{
+  border: 5px solid #1a1a1a;
+}
+p {
   color: rgb(24, 24, 24);
   font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
 }
 h2 {
@@ -143,21 +136,11 @@ h2 {
 }
 .center {
   text-align: center;
-  
 }
-header {
- 
-  padding: 10px 0;
-  border-radius: 9px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-}
-
 
 .navbar-brand {
   font-size: 1.5rem;
   font-weight: bold;
-
 }
 ul {
   list-style-type: none;

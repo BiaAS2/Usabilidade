@@ -7,11 +7,14 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.118.2">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    
+    <link rel="stylesheet" href="../header/header.css" />
     <title>Externalize</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
 
-    <link rel="stylesheet" href="../assets/CSS/carousel.css">
+    
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
@@ -97,10 +100,18 @@
     </style>
 
     
-    <!-- Custom styles for this template -->
-   
   </head>
   <body>
+    <header class="cabecalho">
+      <ul>
+        <li><a href="../Atividade 1/index.html">1</a></li>
+        <li><a href="../Atividade 2/index.html">2</a></li>
+        <li class="active"><a href="../Atividade 3/index.html">3</a></li>
+        <li><a href="../Atividade 4/index.html">4</a></li>
+      </ul>
+      <div class="praticaAtual">ATIVIDADE 3</div>
+    </header>
+
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
       <symbol id="check2" viewBox="0 0 16 16">
         <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
@@ -154,134 +165,111 @@
 
     
 <header data-bs-theme="dark">
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Início</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Serviços</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Sobre Nós</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Contato</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-        </form>
+  <div class="collapse text-bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4>Sobre</h4>
+          <p class="text-body-secondary">Bem-vindo ao nosso site dedicado ao seu bem-estar emocional. Aqui, oferecemos um espaço seguro
+            para você registrar suas atividades diárias, receber mensagens de apoio e agendar consultas.
+            Nossa missão é proporcionar suporte psicológico acessível e conveniente para o seu dia a dia..</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4>contato</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Twitter</a></li>
+            <li><a href="#" class="text-white">Facebook</a></li>
+            <li><a href="#" class="text-white">Email me</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </nav>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+        <strong>Album</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
 </header>
 
 <main>
 
-  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Externalize</h1>
+        <p class="lead text-body-secondary ">Explore as profundezas da mente humana, aprenda sobre fenômenos psicológicos e descubra insights sobre comportamento e cognição.</p>
+        <p>
+          <a href="#" class="btn btn-primary my-2">Main call to action</a>
+          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+        </p>
+      </div>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="../assets/IMG/capa.png" class="imagem--capa" >
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1>Consulta Psicológica Online</h1>
-            <p class="opacity-75">Agende sua consulta agora e cuide da sua saúde mental</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Agendar Consulta</a></p>
+  </section>
+
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class=" card shadow-sm">
+            <img src="./assets/IMG/consulta.jpg" class="bd-placeholder-img card-img-top" alt="Imagem de Consulta Agendada">
+            <div class="card-body">
+              <p class="card-text">Preparamos tudo para recebê-lo em sua consulta agendada. Estamos ansiosos para ouvir sua história e trabalhar juntos em sua jornada de cuidado mental.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-danger">Login</button>
+                  <button type="button" class="btn  btn-danger">Registrar</button>
+                </div>
+                <small class="text-body-secondary">----</small>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div> 
-    <div class = "btn-class">  
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden bn--previous">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./assets/IMG/resgistro.jpg" class="bd-placeholder-img card-img-top" alt="Imagem de Consulta Agendada">
+            <div class="card-body">
+              <p class="card-text">Teu humor é único, e cada registro é uma peça valiosa dessa singularidade. Anote seus sentimentos diários aqui, construindo uma compreensão mais profunda de si mesmo.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Login</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Registrar</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./assets/IMG/chat.jpg" class="bd-placeholder-img card-img-top" alt="Imagem de Consulta Agendada">
+            <div class="card-body">
+              <p class="card-text">Você pode conversar pelo chat quando se sentir à vontade.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Login</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Registrar</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
 
-
-  <!-- Marketing messaging and featurettes
-  ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
-
-  <div class="container marketing">
-
-    <!-- Three columns of text below the carousel -->
-    <div class="row row--imagem">
-      <div class="col-lg-4">
-        <img src="../assets/IMG/Luiz.jpg" class="imagem--luiz" >
-        <h2 class="fw-normal">Conheça o Psicólogo Luiz</h2>
-        <p >O Psicólogo Luiz compartilha sua paixão por cuidar da saúde mental de seus pacientes, promovendo o equilíbrio emocional e o bem-estar.</p>
-       
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <img src="../assets/IMG/Maria.jpg" class="imagem--maria " >
-        <h2 class="fw-normal">Maria</h2>
-        <p>"Com a ajuda do Psicólogo Luiz, descobri uma força interna que não sabia que tinha. Grata por essa jornada incrível!"</p>
-       
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <img src="../assets/IMG/Paulo.jpg" class="imagem--paulo " >
-        <h2 class="fw-normal">Paulo </h2>
-        <p>"Ao longo do meu caminho com o Psicólogo Luiz, encontrei paz e equilíbrio. Grata por sua orientação e apoio contínuo"</p>
-   
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-
-
-    <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider center">
-
-    <div class="row featurette  center">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">Surpreenda-se com as <span class="text-body-secondary">funcionalidades.</span></h2>
-        <p class="lead">Otimo conteúdo de espaço reservado para destacar as características emocionantes do nosso aplicativo.</p>
-      </div>
-      <div class="col-md-5">
-        <img src="../assets/IMG/app.jpg" class="imagem--app" >
-      </div>
-    </div>
-
-    <hr class="featurette-divider ">
-    <div class="row featurette center">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">Veja por si mesmo. <span class="text-body-secondary">Experimente agora.</span></h2>
-        <p class="lead">Outro exemplo incrível? Claro. Mais conteúdo de espaço reservado aqui para lhe dar uma ideia de como este layout funcionaria com algum conteúdo do mundo real no lugar.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <img src="../assets/IMG/paciente.jpg" class="imagem--paciente">
-      </div>
-    </div>
-    
-
-
-
-    <!-- /END THE FEATURETTES -->
-
-  </div><!-- /.container -->
-
-
-  <!-- FOOTER -->
-  <footer class="container center">
-    <p class="float-end"><a href="#">Voltar ao topo</a></p>
-    <p>&copy; 2017–2023 Externalize &middot; <a href="#">Privacidade</a> &middot; <a href="#">Termos</a></p>
-  </footer>
 </main>
+
+<footer class="text-body-secondary py-5">
+  <div class="container">
+
+  </div>
+</footer>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
     </body>
