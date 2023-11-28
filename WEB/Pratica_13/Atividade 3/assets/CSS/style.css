@@ -8,8 +8,23 @@ body {
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
-}
+ 
 
+}
+.lista{
+  padding: 5px;
+  margin: 15px;
+}
+.text{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background: rgb(226, 43, 202);
+  border-radius: 10px;
+  padding: 3px;
+  margin: 20px;
+  border: 2px solid #810931;
+ 
+}
 .container {
   width: 100%;
   max-width: 1170px;
@@ -83,4 +98,75 @@ footer {
   color: #fff;
   padding: 20px 0;
   text-align: center;
+}
+.btn {
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background: rgb(226, 43, 202);
+  border-radius: 10px;
+  font-size: 20px;
+  border: 2px solid #810931;
+ 
+ margin: 10px;
+}
+
+.dropdown {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 3rem;
+  margin-right: 3rem;
+
+}
+
+.dropdown button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.dropdown button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  transition: background-color 0.3s;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+.custom-active {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.custom-active:hover {
+  background-color: #004080;
+}
+
+.theme-icon,
+.theme-icon-active {
+  fill: #fff;
+}
+
+.dropdown-item.active .bi.d-none {
+  display: inline;
+}
+img  {
+  border: 2px solid #810931;
+  box-shadow: 0 0 5px  2px  rgb(226, 43, 128);
+}
+.dark {
+background: #810931;
+color:  blue;
 }

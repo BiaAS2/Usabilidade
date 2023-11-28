@@ -20,6 +20,7 @@
 
 <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
+
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -136,14 +137,14 @@
               data-bs-toggle="dropdown"
               aria-label="Toggle theme (auto)">
         <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
-        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-      </button>
+        <span class=" btn-primary custom-active-text visually-hidden" id="bd-theme-text">Toggle theme</span>
+      </button>        
       <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
         <li>
           <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
-            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+            <svg class="btn-primary bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
             Light
-            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+            <svg class=" btn-primary bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
           </button>
         </li>
         <li>
@@ -154,19 +155,19 @@
           </button>
         </li>
         <li>
-          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
-            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
+          <button type="button" class="custom-active dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="true">
+            <svg class="custom-active bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
             Auto
             <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
           </button>
         </li>
       </ul>
     </div>
-
+         
     
 <header data-bs-theme="dark">
   <div class="collapse text-bg-dark" id="navbarHeader">
-    <div class="container">
+    <div class=" container">
       <div class="row">
         <div class="col-sm-8 col-md-7 py-4">
           <h4>Sobre</h4>
@@ -176,10 +177,10 @@
         </div>
         <div class="col-sm-4 offset-md-1 py-4">
           <h4>contato</h4>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-white">Twitter</a></li>
-            <li><a href="#" class="text-white">Facebook</a></li>
-            <li><a href="#" class="text-white">Email me</a></li>
+          <ul class="lista list-unstyled">
+            <li><a href="#" class="text text-white">Twitter</a></li>
+            <li><a href="#" class="text  text-white">Facebook</a></li>
+            <li><a href="#" class="text text-white">Email</a></li>
           </ul>
         </div>
       </div>
@@ -205,10 +206,6 @@
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light">Externalize</h1>
         <p class="lead text-body-secondary ">Explore as profundezas da mente humana, aprenda sobre fenômenos psicológicos e descubra insights sobre comportamento e cognição.</p>
-        <p>
-          <a href="#" class="btn btn-primary my-2">Main call to action</a>
-          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-        </p>
       </div>
     </div>
   </section>
@@ -224,7 +221,7 @@
               <p class="card-text">Preparamos tudo para recebê-lo em sua consulta agendada. Estamos ansiosos para ouvir sua história e trabalhar juntos em sua jornada de cuidado mental.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-danger">Login</button>
+                  <button type="button" class="btn  btn-danger">Login</button>
                   <button type="button" class="btn  btn-danger">Registrar</button>
                 </div>
                 <small class="text-body-secondary">----</small>
@@ -239,17 +236,17 @@
               <p class="card-text">Teu humor é único, e cada registro é uma peça valiosa dessa singularidade. Anote seus sentimentos diários aqui, construindo uma compreensão mais profunda de si mesmo.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Login</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Registrar</button>
+                  <button type="button" class="btn btn--login--registar btn-sm btn-outline-secondary">Login</button>
+                  <button type="button" class="btn btn--login--registar btn-sm btn-outline-secondary">Registrar</button>
                 </div>
-                <small class="text-body-secondary">9 mins</small>
+                
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img src="./assets/IMG/chat.jpg" class="bd-placeholder-img card-img-top" alt="Imagem de Consulta Agendada">
+            <img src="./assets/IMG/chat.jpg" class="img bd-placeholder-img card-img-top" alt="Imagem de Consulta Agendada">
             <div class="card-body">
               <p class="card-text">Você pode conversar pelo chat quando se sentir à vontade.</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -257,7 +254,7 @@
                   <button type="button" class="btn btn-sm btn-outline-secondary">Login</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Registrar</button>
                 </div>
-                <small class="text-body-secondary">9 mins</small>
+                
               </div>
             </div>
           </div>
